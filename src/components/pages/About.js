@@ -8,19 +8,7 @@ class About extends Component {
         <div className="container">
           <div className="row">
             <div className="row-item">
-                <h1>about page is alive</h1>
-            </div>
-
-            <div className="row-item">
-                <h1>about page is alive</h1>
-            </div>
-
-            <div className="row-item">
-                <h1>about page is alive</h1>
-            </div>
-
-            <div className="row-item">
-                <h1>about page is alive</h1>
+                <h1 style={{color:"white"}}>Under Construction</h1>
             </div>
           </div>
         </div>

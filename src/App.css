@@ -71,7 +71,7 @@ body{
 }
 
 .jumbo-home-bottom {
-  background-image: url('../src/components/img/img-2 copy.jpg');
+  background-image: url('../src/components/img/Front-page-2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -137,11 +137,18 @@ text-align: center;
   padding-bottom: 30px;
 }
 
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
 
 
 .row-item {
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
+  text-align: center;
 }
 }

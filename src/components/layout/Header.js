@@ -20,12 +20,12 @@ class Header extends Component {
           {/* <Nav.Link href="/faq">Frequently Asked Quesions</Nav.Link> */}
         </Nav>
         <Form inline>
-          <a href="https://www.facebook.com/elena.lavallie?ref=bookmarks" rel="noopener noreferrer"
-          target="_blank"><i className="fa fa-facebook-square"></i></a>
+          <a href="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
+          target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px"}}></i></a>
 
-          < a href= "https://www.instagram.com/eklavallie/"
+          < a href= "https://www.instagram.com"
           rel= "noopener noreferrer"
-          target="_blank"><i className="fa fa-instagram"></i></a>
+          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px"}}></i></a>
     </Form>
   </Navbar.Collapse>
 </Navbar>

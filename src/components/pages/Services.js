@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
 
-export default class Services extends Component {
+class Services extends Component {
   render() {
     return (
       <div>
-        <h1>service baby</h1>
+        <div className="showcase">
+        <div className="container">
+          <div className="row">
+            <div className="row-item">
+                <h1 style={{color:"white"}}>Under Construction</h1>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     )
   }
 }
+export default Services;

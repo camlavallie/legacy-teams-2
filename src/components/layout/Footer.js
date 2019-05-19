@@ -25,12 +25,12 @@ class Footer extends Component {
 
      
     
-        <a href="https://www.facebook.com/elena.lavallie?ref=bookmarks" rel="noopener noreferrer"
-        target="_blank"><i className="fa fa-facebook-square"></i></a>
+        <a href="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
+        target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"50px"}}></i></a>
 
-        < a href= "https://www.instagram.com/eklavallie/"
+        < a href= "https://www.instagram.com"
         rel= "noopener noreferrer"
-        target="_blank"><i className="fa fa-instagram"></i></a>
+        target="_blank"><i className="fa fa-instagram" style={{fontSize:"50px", paddingBottom:'10px', paddingTop:'10px'}}></i></a>
           <p className="lead">
      Copyright &copy; {new Date().getFullYear()} Legacy TEAMS
           </p>
