@@ -9,15 +9,15 @@ class Header extends Component {
     return (
       <div>
         <Navbar className="navbar"  expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="/home">Legacy TEAMS</Navbar.Brand>
+          <Navbar.Brand href="/home" style={{marginLeft:'25px'}}>Legacy TEAMS<br/><p style={{fontSize:"15px", opacity:".8"}}>Mentoring, Coaching and Pastoral Counseling.</p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto" style={{marginLeft:'150px'}}>
           <Nav.Link href="/home">Home</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href="/services">Services</Nav.Link>
-          <Nav.Link href="/faq">Frequently Asked Quesions</Nav.Link>
+          {/* <Nav.Link href="/faq">Frequently Asked Quesions</Nav.Link> */}
         </Nav>
         <Form inline>
           <a href="https://www.facebook.com/elena.lavallie?ref=bookmarks" rel="noopener noreferrer"

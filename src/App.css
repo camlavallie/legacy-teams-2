@@ -9,21 +9,37 @@ body{
      overflow-x: hidden;
 
 }
-
+/* this is the Header text in the top jumbotron*/
 .display-4 {
   margin-bottom: 20px;
   font-size: 30px;
 }
 
-.jumbotron-3 {
-  background-color: rgba(0, 0, 0, 0.815);
+.jumbotron-3-footer {
+  background-color: #343a40;
   color: white;
   padding-bottom: 35px;
   padding-top: 30px;
   text-align: center;
   background-attachment: fixed;
 }
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
 
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
 
 .jumbo-home {
   background-image: url('../src/components/img/img-3.jpg');
@@ -33,10 +49,28 @@ body{
   background-attachment: fixed;
   color: white;
   opacity: .8;
-  height: 450px;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
 }
 
 .jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
   background-image: url('../src/components/img/img-2 copy.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,9 +78,13 @@ body{
   background-attachment: fixed;
   color: white;
   opacity: .9;
-  height: 450px;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
-
 
 
 
@@ -71,7 +109,7 @@ text-align: center;
 
 .bio-picture-rossi {
   padding-top: 20px;
-  float: right;
+  
 }
 
 
