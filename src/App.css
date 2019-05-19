@@ -1,11 +1,5 @@
 @media only screen and (max-width: 3200px) {
-
-@media only screen and (max-width:800px) {
-
-@media only screen and (max-width:500px) {
-
-
-  body, html{
+body{
   font-family: 'Lucida Sans', Arial, sans-serif;
   background-repeat:no-repeat;
      width: 100%;
@@ -157,4 +151,4 @@ text-align: center;
   padding-top: 20px;
   text-align: center;
 }
-}}}
+}
