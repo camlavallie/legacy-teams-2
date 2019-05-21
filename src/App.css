@@ -194,43 +194,41 @@ text-align: center;
     overflow-x: hidden;
      
   }
-}
-
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-     
+
   }
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-     
+
   }
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-     
+
   }
 }
 
@@ -238,37 +236,37 @@ text-align: center;
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-     
+
   }
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-     
+
   }
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-     
+
   }
 }
 
@@ -276,37 +274,37 @@ text-align: center;
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-     
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-     
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-     
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
@@ -314,36 +312,37 @@ text-align: center;
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-     
+    padding: 0px;
+    overflow-x: hidden;
+
   }
-}
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-     
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  html{
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-     
+    padding: 0px;
+    overflow-x: hidden;
+
   }
+}
+}
 }
