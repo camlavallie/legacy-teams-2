@@ -158,36 +158,4295 @@ text-align: center;
 
 
 
-/* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
 }
 
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
 
-     
-  }
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 
 
 
 
-@media all and (min-width:960px) and (max-width: 1024px) {
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+  body{
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #343a40;
+  color: white;
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #e2e8f0;
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/img-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   height: auto;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/Front-page-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding:50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
   body{
   font-family: 'Lucida Sans', Arial, sans-serif;
   background-repeat:no-repeat;
@@ -347,1144 +4606,177 @@ text-align: center;
 
 
 
-/* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
+
+
+/* HEEEEEEEELP */
+
+
+
+
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 
-     
   }
 }
 
-@media all and (min-width:801px) and (max-width: 959px) {
-  body{
-  font-family: 'Lucida Sans', Arial, sans-serif;
-  background-repeat:no-repeat;
-     width: 100%;
-     height: 100%;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-
-}
-/* this is the Header text in the top jumbotron*/
-.display-4 {
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.jumbotron-3-footer {
-  background-color: #343a40;
-  color: white;
-  padding-bottom: 35px;
-  padding-top: 30px;
-  text-align: center;
-  background-attachment: fixed;
-}
-.bottom-nav a, a {
-  padding: 10px 10px;
-  text-decoration: none;
-  color: #e2e8f0;
-  text-decoration-color:white;
-
-
-}
-
-.showcase {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
-.jumbo-home {
-  background-image: url('../src/components/img/img-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .8;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-   height: auto;
-}
-
-.jumbo-home-2 {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  padding:50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: auto;
-}
-
-.jumbo-home-bottom {
-  background-image: url('../src/components/img/Front-page-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  height: auto;
-  margin-block-end: 0;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-}
-
-
-
-
-
-.the-team {
-  padding-top: 20px;
-}
-
-
-.bio-picture-egert {
-text-align: center;
-}
-
-
-
-.bio-text-egert {
-  text-align: left;
-}
-
-
-
-.bio-picture-rossi {
-  padding-top: 20px;
-}
-
-
-
-.bio-text-rossi {
-  text-align: left;
-}
-
-.row-rossi {
-  padding-top: 5px;
-}
-
-.bio-picture-meyer {
-  margin-right: 5px;
-  text-align: center;
-}
-
-
-
-.bio-text-meyer {
- text-align: left;
-}
-
-.row-meyer {
-  padding-bottom: 30px;
-}
-
-.top-jumbo-info{
-  text-align: center;
-  height: 200px;
-  padding-top: 50px;
-  margin-bottom: 150px
-}
-
-
-.row-item {
-  margin: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.faq-head {
-  margin-bottom: 10px;
-}
-}
-
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 
-     
   }
 }
 
-@media all and (min-width:769px) and (max-width: 800px) {
-  body{
-  font-family: 'Lucida Sans', Arial, sans-serif;
-  background-repeat:no-repeat;
-     width: 100%;
-     height: 100%;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-
-}
-/* this is the Header text in the top jumbotron*/
-.display-4 {
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.jumbotron-3-footer {
-  background-color: #343a40;
-  color: white;
-  padding-bottom: 35px;
-  padding-top: 30px;
-  text-align: center;
-  background-attachment: fixed;
-}
-.bottom-nav a, a {
-  padding: 10px 10px;
-  text-decoration: none;
-  color: #e2e8f0;
-  text-decoration-color:white;
-
-
-}
-
-.showcase {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
-.jumbo-home {
-  background-image: url('../src/components/img/img-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .8;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-   height: auto;
-}
-
-.jumbo-home-2 {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  padding:50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: auto;
-}
-
-.jumbo-home-bottom {
-  background-image: url('../src/components/img/Front-page-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  height: auto;
-  margin-block-end: 0;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-}
-
-
-
-
-
-.the-team {
-  padding-top: 20px;
-}
-
-
-.bio-picture-egert {
-text-align: center;
-}
-
-
-
-.bio-text-egert {
-  text-align: left;
-}
-
-
-
-.bio-picture-rossi {
-  padding-top: 20px;
-}
-
-
-
-.bio-text-rossi {
-  text-align: left;
-}
-
-.row-rossi {
-  padding-top: 5px;
-}
-
-.bio-picture-meyer {
-  margin-right: 5px;
-  text-align: center;
-}
-
-
-
-.bio-text-meyer {
- text-align: left;
-}
-
-.row-meyer {
-  padding-bottom: 30px;
-}
-
-.top-jumbo-info{
-  text-align: center;
-  height: 200px;
-  padding-top: 50px;
-  margin-bottom: 150px
-}
-
-
-.row-item {
-  margin: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.faq-head {
-  margin-bottom: 10px;
-}
-}
-
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 
-     
   }
 }
 
-@media all and (min-width:569px) and (max-width: 768px) {
-  body{
-  font-family: 'Lucida Sans', Arial, sans-serif;
-  background-repeat:no-repeat;
-     width: 100%;
-     height: 100%;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-
-}
-/* this is the Header text in the top jumbotron*/
-.display-4 {
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.jumbotron-3-footer {
-  background-color: #343a40;
-  color: white;
-  padding-bottom: 35px;
-  padding-top: 30px;
-  text-align: center;
-  background-attachment: fixed;
-}
-.bottom-nav a, a {
-  padding: 10px 10px;
-  text-decoration: none;
-  color: #e2e8f0;
-  text-decoration-color:white;
-
-
-}
-
-.showcase {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
-.jumbo-home {
-  background-image: url('../src/components/img/img-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .8;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-   height: auto;
-}
-
-.jumbo-home-2 {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  padding:50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: auto;
-}
-
-.jumbo-home-bottom {
-  background-image: url('../src/components/img/Front-page-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  height: auto;
-  margin-block-end: 0;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-}
-
-
-
-
-
-.the-team {
-  padding-top: 20px;
-}
-
-
-.bio-picture-egert {
-text-align: center;
-}
-
-
-
-.bio-text-egert {
-  text-align: left;
-}
-
-
-
-.bio-picture-rossi {
-  padding-top: 20px;
-}
-
-
-
-.bio-text-rossi {
-  text-align: left;
-}
-
-.row-rossi {
-  padding-top: 5px;
-}
-
-.bio-picture-meyer {
-  margin-right: 5px;
-  text-align: center;
-}
-
-
-
-.bio-text-meyer {
- text-align: left;
-}
-
-.row-meyer {
-  padding-bottom: 30px;
-}
-
-.top-jumbo-info{
-  text-align: center;
-  height: 200px;
-  padding-top: 50px;
-  margin-bottom: 150px
-}
-
-
-.row-item {
-  margin: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.faq-head {
-  margin-bottom: 10px;
-}
-}
-
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
   }
 }
 
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 
-     
   }
 }
 
-@media all and (min-width:481px) and (max-width: 568px) {
-  body{
-  font-family: 'Lucida Sans', Arial, sans-serif;
-  background-repeat:no-repeat;
-     width: 100%;
-     height: 100%;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-
-}
-/* this is the Header text in the top jumbotron*/
-.display-4 {
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.jumbotron-3-footer {
-  background-color: #343a40;
-  color: white;
-  padding-bottom: 35px;
-  padding-top: 30px;
-  text-align: center;
-  background-attachment: fixed;
-}
-.bottom-nav a, a {
-  padding: 10px 10px;
-  text-decoration: none;
-  color: #e2e8f0;
-  text-decoration-color:white;
-
-
-}
-
-.showcase {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
-.jumbo-home {
-  background-image: url('../src/components/img/img-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .8;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-   height: auto;
-}
-
-.jumbo-home-2 {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  padding:50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: auto;
-}
-
-.jumbo-home-bottom {
-  background-image: url('../src/components/img/Front-page-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  height: auto;
-  margin-block-end: 0;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-}
-
-
-
-
-
-.the-team {
-  padding-top: 20px;
-}
-
-
-.bio-picture-egert {
-text-align: center;
-}
-
-
-
-.bio-text-egert {
-  text-align: left;
-}
-
-
-
-.bio-picture-rossi {
-  padding-top: 20px;
-}
-
-
-
-.bio-text-rossi {
-  text-align: left;
-}
-
-.row-rossi {
-  padding-top: 5px;
-}
-
-.bio-picture-meyer {
-  margin-right: 5px;
-  text-align: center;
-}
-
-
-
-.bio-text-meyer {
- text-align: left;
-}
-
-.row-meyer {
-  padding-bottom: 30px;
-}
-
-.top-jumbo-info{
-  text-align: center;
-  height: 200px;
-  padding-top: 50px;
-  margin-bottom: 150px
-}
-
-
-.row-item {
-  margin: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.faq-head {
-  margin-bottom: 10px;
-}
-}
-
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
-}
-
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  html {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
 
-     
   }
 }
 
-@media all and (min-width:321px) and (max-width: 480px) {
-  body{
-  font-family: 'Lucida Sans', Arial, sans-serif;
-  background-repeat:no-repeat;
-     width: 100%;
-     height: 100%;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
 
-}
-/* this is the Header text in the top jumbotron*/
-.display-4 {
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.jumbotron-3-footer {
-  background-color: #343a40;
-  color: white;
-  padding-bottom: 35px;
-  padding-top: 30px;
-  text-align: center;
-  background-attachment: fixed;
-}
-.bottom-nav a, a {
-  padding: 10px 10px;
-  text-decoration: none;
-  color: #e2e8f0;
-  text-decoration-color:white;
-
-
-}
-
-.showcase {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
-.jumbo-home {
-  background-image: url('../src/components/img/img-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .8;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-   height: auto;
-}
-
-.jumbo-home-2 {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  padding:50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: auto;
-}
-
-.jumbo-home-bottom {
-  background-image: url('../src/components/img/Front-page-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  height: auto;
-  margin-block-end: 0;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-}
-
-
-
-
-
-.the-team {
-  padding-top: 20px;
-}
-
-
-.bio-picture-egert {
-text-align: center;
-}
-
-
-
-.bio-text-egert {
-  text-align: left;
-}
-
-
-
-.bio-picture-rossi {
-  padding-top: 20px;
-}
-
-
-
-.bio-text-rossi {
-  text-align: left;
-}
-
-.row-rossi {
-  padding-top: 5px;
-}
-
-.bio-picture-meyer {
-  margin-right: 5px;
-  text-align: center;
-}
-
-
-
-.bio-text-meyer {
- text-align: left;
-}
-
-.row-meyer {
-  padding-bottom: 30px;
-}
-
-.top-jumbo-info{
-  text-align: center;
-  height: 200px;
-  padding-top: 50px;
-  margin-bottom: 150px
-}
-
-
-.row-item {
-  margin: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.faq-head {
-  margin-bottom: 10px;
-}
-}
-
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
-}
-
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-
-     
-  }
-}
-
-@media all and (min-width:0px) and (max-width: 320px) {
-  body{
-  font-family: 'Lucida Sans', Arial, sans-serif;
-  background-repeat:no-repeat;
-     width: 100%;
-     height: 100%;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-
-}
-/* this is the Header text in the top jumbotron*/
-.display-4 {
-  margin-bottom: 20px;
-  font-size: 30px;
-}
-
-.jumbotron-3-footer {
-  background-color: #343a40;
-  color: white;
-  padding-bottom: 35px;
-  padding-top: 30px;
-  text-align: center;
-  background-attachment: fixed;
-}
-.bottom-nav a, a {
-  padding: 10px 10px;
-  text-decoration: none;
-  color: #e2e8f0;
-  text-decoration-color:white;
-
-
-}
-
-.showcase {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100vh;
-}
-
-.jumbo-home {
-  background-image: url('../src/components/img/img-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .8;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-   height: auto;
-}
-
-.jumbo-home-2 {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  padding:50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: auto;
-}
-
-.jumbo-home-bottom {
-  background-image: url('../src/components/img/Front-page-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: 100%;
-  height: auto;
-  margin-block-end: 0;
-   padding:50px;
-   padding-top: 100px;
-   padding-bottom: 100px;
-}
-
-
-
-
-
-.the-team {
-  padding-top: 20px;
-}
-
-
-.bio-picture-egert {
-text-align: center;
-}
-
-
-
-.bio-text-egert {
-  text-align: left;
-}
-
-
-
-.bio-picture-rossi {
-  padding-top: 20px;
-}
-
-
-
-.bio-text-rossi {
-  text-align: left;
-}
-
-.row-rossi {
-  padding-top: 5px;
-}
-
-.bio-picture-meyer {
-  margin-right: 5px;
-  text-align: center;
-}
-
-
-
-.bio-text-meyer {
- text-align: left;
-}
-
-.row-meyer {
-  padding-bottom: 30px;
-}
-
-.top-jumbo-info{
-  text-align: center;
-  height: 200px;
-  padding-top: 50px;
-  margin-bottom: 150px
-}
-
-
-.row-item {
-  margin: 10px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.faq-head {
-  margin-bottom: 10px;
-}
-}
-
-
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
-}
-
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  html{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-
-     
-  }
-}
