@@ -1,5 +1,5 @@
 @media only screen and (max-width: 3200px) {
-body {
+body, html{
   font-family: 'Lucida Sans', Arial, sans-serif;
   background-repeat:no-repeat;
      width: auto;
@@ -7,12 +7,9 @@ body {
      margin: 0px;
      padding: 0px;
      overflow-x: hidden;
+
 }
-html {
-  width: auto;
-  height: 100%;
-  overflow: hidden;
-}
+
 /* this is the Header text in the top jumbotron*/
 .display-4 {
   margin-bottom: 20px;
@@ -162,3 +159,392 @@ text-align: center;
 
 
 
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPhone X ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* iPhone XS Max, XR ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+body {
+  font-family: 'Lucida Sans', Arial, sans-serif;
+  background-repeat:no-repeat;
+     width: auto;
+     height: 100%;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+
+}
+}
