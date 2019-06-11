@@ -11,7 +11,7 @@ class Home extends Component {
   render() {
 
     return (
-      <div>
+      <div classname="full-home">
            <Row>
             <Col sm={12}>
               <Jumbotron fluid className="jumbo-home">

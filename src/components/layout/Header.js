@@ -9,7 +9,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar className="navbar"  expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="/home" style={{marginLeft:'25px'}}>Legacy TEAMS<br/><p style={{fontSize:"15px", opacity:".8"}}>Mentoring, Coaching and Pastoral Counseling.</p></Navbar.Brand>
+          <Navbar.Brand href="/home" style={{marginLeft:'25px', fontFamily:'Cormorant', fontSize:'35px'}}>Legacy TEAMS<br/><p style={{fontSize:"15px", fontFamily:'Cormorant', opacity:".8", marginTop:'5px', marginBottom:'5px'}}>Mentoring, Coaching and Pastoral Counseling.</p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{marginLeft:'150px'}}>
