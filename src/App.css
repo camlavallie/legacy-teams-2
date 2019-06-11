@@ -1,13 +1,17 @@
 @media only screen and (max-width: 3200px) {
-body, html{
+body {
   font-family: 'Lucida Sans', Arial, sans-serif;
   background-repeat:no-repeat;
-     width: 100%;
+     width: auto;
      height: 100%;
      margin: 0px;
      padding: 0px;
      overflow-x: hidden;
-
+}
+html {
+  width: auto;
+  height: 100%;
+  overflow: hidden;
 }
 /* this is the Header text in the top jumbotron*/
 .display-4 {
@@ -63,7 +67,7 @@ body, html{
   background-attachment: fixed;
   color: white;
   opacity: .9;
-  width: 100%;
+  width: auto;
   padding:50px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -78,7 +82,7 @@ body, html{
   background-attachment: fixed;
   color: white;
   opacity: .9;
-  width: 100%;
+  width: auto;
   height: auto;
   margin-block-end: 0;
    padding:50px;
