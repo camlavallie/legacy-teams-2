@@ -10,6 +10,7 @@
       width: 100%;
       height: 100%;
       overflow-x: hidden;
+      scroll-behavior: smooth;
     }
   }
 
@@ -22,6 +23,7 @@
       width: 100%;
       height: 100%;
       overflow-x: hidden;
+      scroll-behavior: smooth;
     }
   }
 
@@ -32,6 +34,11 @@
     height: 100%;
     overflow-x: hidden;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
 
 /* this is the Header text in the top jumbotron*/
 .display-4 {
