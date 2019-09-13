@@ -7,6 +7,10 @@ import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import Popover from 'react-bootstrap/Popover';
+
 
 
 
@@ -49,8 +53,8 @@ class Home extends Component {
                 <Card.Body>
                 <Card.Title>Pastoral Care</Card.Title>
                 <Card.Text>
-                  Pastoral Care
-Legacy TEAMS pastoral care includes face to face pastoral counseling and counseling. Our focus is to help clients overcome life controlling wounds from the past, strengthen their primary relationships, clarify their life calling and establish strategic vision that will provide enduring legacy to their families, team and ministry. The long term goals are to help clients achieve wholeness, healing and strength to serve God and build godly legacies.
+                    Pastoral Care
+                    Legacy TEAMS pastoral care includes face to face pastoral counseling and counseling. Our focus is to help clients overcome life controlling wounds from the past, strengthen their primary relationships, clarify their life calling and establish strategic vision that will provide enduring legacy to their families, team and ministry. The long term goals are to help clients achieve wholeness, healing and strength to serve God and build godly legacies.
                 </Card.Text><br/>
                 <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
@@ -62,7 +66,7 @@ Legacy TEAMS pastoral care includes face to face pastoral counseling and counsel
                 <Card.Body>
                 <Card.Title>Engagements</Card.Title>
                 <Card.Text>
-Engagements are on-site intensives between individuals or couples and Legacy TEAMS leaders which assesses the current situation of clients, explores ways to move forward in life, and seeks healing for moral and spiritual injuries. Engagements are tailored to the specific needs of clients, and may last from two to six days. Various tools are used to help clients assess their current situation and needs. Prayer and inner healing are an essential part of this process.
+                  Engagements are on-site intensives between individuals or couples and Legacy TEAMS leaders which assesses the current situation of clients, explores ways to move forward in life, and seeks healing for moral and spiritual injuries. Engagements are tailored to the specific needs of clients, and may last from two to six days. Various tools are used to help clients assess their current situation and needs. Prayer and inner healing are an essential part of this process.
                 </Card.Text><br/>
                 <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
@@ -74,17 +78,31 @@ Engagements are on-site intensives between individuals or couples and Legacy TEA
                 <Card.Body>
                 <Card.Title>Next Steps</Card.Title>
                 <Card.Text>
-             Through teleconferencing and face to face meetings and engagements, ministry participants will work with Legacy TEAMS to identify areas that need growth, change and transformation. After the initial assessments and interview, Legacy TEAMS will begin a process of coaching, mentoring and pastoral care to equip individuals with the skills, spiritual insight and tools to develop their own long range strategic vision for themselves, family and team.
+                  Through teleconferencing and face to face meetings and engagements, ministry participants will work with Legacy TEAMS to identify areas that need growth, change and transformation. After the initial assessments and interview, Legacy TEAMS will begin a process of coaching, mentoring and pastoral care to equip individuals with the skills, spiritual insight and tools to develop their own long range strategic vision for themselves, family and team.
                 </Card.Text><br/>
-                <Button variant="primary">Go somewhere</Button>
+                <ButtonToolbar style={{justifyContent:'center'}} >
+  {['bottom'].map(placement => (
+    <OverlayTrigger
+      trigger="click"
+      key={placement}
+      placement={placement}
+      overlay={
+        <Popover id={`popover-positioned-${placement}`}>
+          <Popover.Title as="h3">{`For more info email us at:`}</Popover.Title>
+          <Popover.Content>
+            chaplainegert@yahoo.com
+          </Popover.Content>
+        </Popover>
+      }
+    >
+      <Button style={{textAlign:'center'}} variant="primary">Contact Us</Button>
+    </OverlayTrigger>
+  ))}
+</ButtonToolbar>
                 </Card.Body>
               </Card>
             </div>
           </div>
-    
-
-
-
   </Tab>
   <Tab eventKey="profile" title="The Team">
 
