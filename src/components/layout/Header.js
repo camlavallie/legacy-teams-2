@@ -8,8 +8,8 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <Navbar className="navbar"  expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="/home" style={{marginLeft:'25px', fontFamily:'Cormorant', fontSize:'35px'}}>Legacy TEAMS<br/><p style={{fontSize:"15px", fontFamily:'Cormorant', opacity:".8", marginTop:'5px', marginBottom:'5px'}}>Mentoring, Coaching and Pastoral Counseling.</p></Navbar.Brand>
+        <Navbar className="navbar"  expand="lg" >
+          <Navbar.Brand href="/home" style={{marginLeft:'25px', fontSize:'35px'}}>LegacyTEAMS<br/><p style={{fontSize:"15px", fontFamily:'Cormorant', opacity:".8", marginTop:'5px', marginBottom:'5px'}}>Mentoring, Coaching and Pastoral Counseling.</p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{paddingLeft:'100px', fontSize:'20px', color:'white, imortant!'}}>
@@ -20,11 +20,11 @@ class Header extends Component {
         </Nav>
         <Form inline style={{paddingLeft:'90px'}}>
           <a href="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
-          target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px"}}></i></a>
+          target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px", color:'grey'}}></i></a>
 
           < a href= "https://www.instagram.com"
           rel= "noopener noreferrer"
-          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px"}}></i></a>
+          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px", color:'grey'}}></i></a>
     </Form>
   </Navbar.Collapse>
 </Navbar>
