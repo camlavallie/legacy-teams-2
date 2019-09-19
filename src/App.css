@@ -74,7 +74,11 @@
 }
 
 .jumbo-home {
-  background-image: url('../src/components/img/opendoor.jpg');
+  /* background-image: url('../src/components/img/opendoor.jpg'); */
+    background-image: url('../src/components/img/compass1.jpg');
+  /* background-image: url('../src/components/img/compass2.jpg'); */
+  /* background-image: url('../src/components/img/compass3.jpg'); */
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
