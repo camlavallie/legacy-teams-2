@@ -205,7 +205,7 @@ class Home extends Component {
               <Jumbotron fluid className="jumbo-home-bottom">
                 <Container>
                    <p className="jumbotron-text" style={{ paddingTop:'50px', paddingBottom:'50px', fontSize:'20px'}}>
-                  Located on beautiful Grand Lake of the Cherokees in Grove, Oklahoma, LegacyTEAMS exist to help military chaplains, ministers, and veterans develop healthy legacies that fulfill God’s purpose for their lives and ministries. Through one-to-one mentoring and coaching, teleconferencing or personal meetings, LegacyTEAMS seeks to develop a personal relationship with each participant to help them build legacies for themselves, their family and ministry that will endure. Everyone has a heritage, but not everyone leaves a great legacy. Legac TEAMS will help you build one that reaches to your children’s children and beyond.
+                  Located on beautiful Grand Lake of the Cherokees in Grove, Oklahoma, LegacyTEAMS exist to help military chaplains, ministers, and veterans develop healthy legacies that fulfill God’s purpose for their lives and ministries. Through one-to-one mentoring and coaching, teleconferencing or personal meetings, LegacyTEAMS seeks to develop a personal relationship with each participant to help them build legacies for themselves, their family and ministry that will endure. Everyone has a heritage, but not everyone leaves a great legacy. LegacyTEAMS will help you build one that reaches to your children’s children and beyond.
                   </p>
                 </Container>
               </Jumbotron>
