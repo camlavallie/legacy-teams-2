@@ -7,7 +7,7 @@ const baseUrl = process.env.REACT_APP_BASE_URL;
 
 export const getPosts = () => async dispatch => {
   try {
-    const res = await axios.get(`${baseUrl}/api/posts`);
+    const res = await axios.get(`${baseUrl}/posts`);
     dispatch({
       type: GET_POSTS,
       payload: res.data
