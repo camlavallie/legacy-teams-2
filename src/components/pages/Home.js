@@ -39,6 +39,7 @@ class Home extends Component {
           marginBottom:'25px'
         }}
         >
+      
   <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
   <Tab eventKey="home" title="Services">
     
@@ -52,7 +53,8 @@ class Home extends Component {
                     Pastoral Care
                     LegacyTEAMS pastoral care includes face to face pastoral counseling and counseling. Our focus is to help clients overcome life controlling wounds from the past, strengthen their primary relationships, clarify their life calling and establish strategic vision that will provide enduring legacy to their families, team and ministry. The long term goals are to help clients achieve wholeness, healing and strength to serve God and build godly legacies.
                 </Card.Text><br/>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">Go somewhere</Button><br/>
+                 <Button variant="primary" href="/about">Go somewhere</Button>
                 </Card.Body>
               </Card>
             </div>
@@ -91,7 +93,7 @@ class Home extends Component {
         </Popover>
       }
     >
-      <Button style={{textAlign:'center'}} variant="primary">Contact Us</Button>
+      <Button style={{textAlign:'center'}} className="dark" variant="primary">Contact Us</Button>
     </OverlayTrigger>
   ))}
 </ButtonToolbar>
