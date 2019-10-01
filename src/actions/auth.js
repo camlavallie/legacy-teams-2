@@ -10,16 +10,17 @@ import {
   AUTH_ERROR
 } from './types';
 import setAuthToken from '../utils/setAuthToken';
+
 const baseUrl = process.env.REACT_APP_BASE_URL;
 
 // load user
-export const loadUser = () => async dispatch => {
+export const loadUser = userData => async dispatch => {
   if(localStorage.token) {
     setAuthToken(localStorage.token);
   }
 
   try {
-    const res = await axios.get(`${baseUrl}/auth`);
+    const res = await axios.get(`${baseUrl}/auth`, userData);
 
     dispatch({
       type: USER_LOADED,
