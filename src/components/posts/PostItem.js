@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Moment from 'react-moment';
 import { connect } from 'react-redux';
 import { deletePost } from '../../actions/post';
+import Linkify from 'linkifyjs/react';
 
 
 const PostItem = ({ 
@@ -24,9 +25,11 @@ const PostItem = ({
            
           </div>
           <div>
+            <Linkify>
             <p className="my-1">
               {text}
             </p>
+            </Linkify>
              <p className="post-date">
                 Posted on <Moment format='YYYY/MM/DD'>{date}</Moment>
                 

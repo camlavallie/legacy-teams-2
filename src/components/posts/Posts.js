@@ -7,6 +7,8 @@ import PostItem from './PostItem';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import PostForm from './PostForm';
 
+
+
 const Posts = ({getPosts, auth, post: {posts, loading}}) => {
   useEffect(() => {
     getPosts();

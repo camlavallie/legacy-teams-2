@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux';
 import { addPost } from '../../actions/post';
+import Linkify from 'linkifyjs/react';
 
 const PostForm = ({ addPost }) => {
   const [text, setText] = useState('');
@@ -16,10 +17,10 @@ const PostForm = ({ addPost }) => {
         setText('');
       }}>
       <textarea name="text" cols="30" rows="5" placeholder="Create Resource" value={text} onChange={e => setText(e.target.value)} required>
-      </textarea>
+      </textarea> 
       <input type="submit" className="btn btn-dark my-2"/>
       
-      </form>      
+      </form>    
     </div>
   )
 }

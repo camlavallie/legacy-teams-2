@@ -7,6 +7,7 @@
     "bootstrap": "^4.3.1",
     "browser-router": "^0.2.0",
     "cors": "^2.8.5",
+    "linkifyjs": "^2.1.8",
     "moment": "^2.24.0",
     "react": "^16.10.1",
     "react-bootstrap": "^1.0.0-beta.12",
