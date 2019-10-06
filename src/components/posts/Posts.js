@@ -17,7 +17,11 @@ const Posts = ({getPosts, auth, post: {posts, loading}}) => {
 
   return loading ? <Spinner /> : (
     <Fragment>
-      <Jumbotron style={{textAlign:'center'}}>
+      {/* <Jumbotron style={{textAlign:'center'}}>
+    
+</Jumbotron> */}
+
+<Jumbotron className="jumbo-home-3">
       <h1 className="large text-primary">Resources</h1>
       {auth.user && !auth.loading &&  (
             <PostForm />
@@ -26,10 +30,6 @@ const Posts = ({getPosts, auth, post: {posts, loading}}) => {
                    )
                  }
     
-    
-</Jumbotron>
-
-<Jumbotron>
 
   
       

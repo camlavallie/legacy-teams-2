@@ -89,6 +89,22 @@
   padding-bottom: 200px;
   text-shadow: #636e79;
 }
+.jumbo-home-3 {
+  background-image: url('../src/components/img/opendoor.jpg');
+  /* background-image: url('../src/components/img/compass1.jpg'); */
+  /* background-image: url('../src/components/img/compass2.jpg'); */
+  /* background-image: url('../src/components/img/compass3.jpg'); */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  opacity: .9;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-shadow: #636e79;
+}
 
 .jumbo-home-2 {
   background-image: url('../src/components/img/background.jpg');

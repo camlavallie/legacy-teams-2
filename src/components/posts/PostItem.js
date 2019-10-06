@@ -5,12 +5,15 @@ import Moment from 'react-moment';
 import { connect } from 'react-redux';
 import { deletePost } from '../../actions/post';
 import Linkify from 'linkifyjs/react';
+import Accordion from 'react-bootstrap/Accordion';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 const PostItem = ({ 
   deletePost,
   auth,
-  post: {_id, text, name, user, avatar, date }
+  post: {_id, title, text, name, user, avatar, date }
 }) => (
       <div className="post bg-white">
 
@@ -25,16 +28,32 @@ const PostItem = ({
            
           </div>
           <div>
-            <Linkify>
-            <p className="my-1">
-              {text}
-            </p>
-            </Linkify>
-             <p className="post-date">
-                Posted on <Moment format='YYYY/MM/DD'>{date}</Moment>
-                
-                
-            </p>
+          <Accordion>
+            <Card>
+             <Card.Header>
+              <Accordion.Toggle as={Button} variant="link" eventKey="0">
+               <h2>{title}</h2>
+              </Accordion.Toggle>
+                <p className="post-date">
+                      Posted on <Moment format='YYYY/MM/DD'>{date}</Moment>
+                </p>
+            </Card.Header>
+            <Accordion.Collapse eventKey="0">
+              <Card.Body> 
+               <Linkify>
+                  <p className="my-1">
+                    {text}
+                 </p>
+                </Linkify>
+              </Card.Body>
+           </Accordion.Collapse>
+         </Card>
+       </Accordion>
+            <br/>
+
+
+
+
            {auth.user && !auth.loading && auth.user._id && (
 
             <button onClick={e => deletePost(_id)}      
