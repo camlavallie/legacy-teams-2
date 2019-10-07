@@ -4,6 +4,7 @@ import { setAlert } from '../../actions/alert';
 import { register } from '../../actions/auth';
 import PropTypes from 'prop-types';
 import { Redirect } from 'react-router-dom';
+import Container from 'react-bootstrap/Container'
 
 const Register = ({ setAlert, register, isAuthenticated }) => {
   const [formData, setFormData] = useState({
@@ -32,7 +33,9 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   }
   return (
     <Fragment>
-      <h1>Register</h1>
+      <Container>
+        <div className="login">
+      <h1>Register</h1><br/>
         <form className="form-group" onSubmit={e => onSubmit(e)}>
           <div className="form-group">
             <input type="text" 
@@ -68,11 +71,12 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             value={password2}
             onChange={e => onChange(e)}
             />
-          </div>
+          </div><br/>
           <input type="submit" className="btn btn-primary" value="Register"/>
          
         </form>
-
+        </div>
+      </Container>
     </Fragment>
   )
 };

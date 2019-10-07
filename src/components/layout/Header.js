@@ -51,7 +51,7 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
     return (
       <div>
         <Navbar className="navbar"  expand="lg" >
-          <Navbar.Brand href="/home" style={{marginLeft:'25px', fontSize:'35px'}}>LegacyTEAMS<br/><p style={{fontSize:"15px", fontFamily:'Cormorant', opacity:".8", marginTop:'5px', marginBottom:'5px'}}>Mentoring, Coaching and Pastoral Counseling.</p></Navbar.Brand>
+          <Navbar.Brand href="/home" style={{marginLeft:'25px', fontSize:'35px'}}>LegacyTEAMS<br/><p style={{fontSize:"15px", fontFamily:'Cormorant', opacity:".8", marginTop:'5px', marginBottom:'5px'}}>Transforming, Encouraging, and Assessing Mission Strength.</p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{paddingLeft:'100px', fontSize:'20px', color:'white, imortant!'}}>

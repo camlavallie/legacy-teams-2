@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { login } from '../../actions/auth';
 import { Redirect } from 'react-router-dom';
-
+import Container from 'react-bootstrap/Container'
 
 const Login = ({ login, isAuthenticated }) => {
   const [formData, setFormData] = useState({
@@ -28,7 +28,9 @@ const Login = ({ login, isAuthenticated }) => {
   }
   return (
     <Fragment>
-      <h1>Sign In</h1>
+      <Container>
+        <div className="login">
+      <h1>Sign In</h1><br/>
         <form className="form-group" onSubmit={e => onSubmit(e)}>
          
           <div className="form-group">
@@ -48,10 +50,12 @@ const Login = ({ login, isAuthenticated }) => {
             value={password}
             onChange={e => onChange(e)}
             />
-          </div>
+          </div><br/>
          
           <input type="submit" className="btn btn-primary" value="Login"/>
         </form>
+        </div>
+        </Container>
     </Fragment>
   )
 };
