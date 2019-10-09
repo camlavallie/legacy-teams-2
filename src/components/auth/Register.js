@@ -43,7 +43,14 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             name="name" 
             value={name}
             onChange={e => onChange(e)}
-            required/>
+            required
+            style={{
+              width:'60%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
+            />
           </div>
           <div className="form-group">
             <input type="email" 
@@ -52,6 +59,12 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             value={email}
             onChange={e => onChange(e)}
             required
+            style={{
+              width:'60%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
             />
           </div>
           <div className="form-group">
@@ -61,6 +74,12 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             minLength="6"
             value={password}
             onChange={e => onChange(e)}
+            style={{
+              width:'60%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
             />
           </div>
           <div className="form-group">
@@ -70,9 +89,19 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             minLength="6"
             value={password2}
             onChange={e => onChange(e)}
+            style={{
+              width:'60%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
             />
           </div><br/>
-          <input type="submit" className="btn btn-primary" value="Register"/>
+          <input type="submit" className="btn btn-primary" value="Register"
+          style={{
+              width:'60%'
+            }}
+          />
          
         </form>
         </div>

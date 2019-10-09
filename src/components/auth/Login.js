@@ -41,6 +41,12 @@ const Login = ({ login, isAuthenticated }) => {
             value={email}
             onChange={e => onChange(e)}
             required
+            style={{
+              width:'50%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
             />
           </div>
           <div className="form-group">
@@ -50,10 +56,20 @@ const Login = ({ login, isAuthenticated }) => {
             minLength="6"
             value={password}
             onChange={e => onChange(e)}
+            style={{
+              width:'50%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
             />
           </div><br/>
          
-          <input type="submit" className="btn btn-primary" value="Login"/>
+          <input type="submit" className="btn btn-primary" value="Login"
+          style={{
+              width:'50%'
+            }}
+          />
         </form>
         </div>
         </Container>
