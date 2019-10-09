@@ -10,6 +10,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Popover from 'react-bootstrap/Popover';
+import Linkify from 'linkifyjs/react';
 
 
 
@@ -84,7 +85,9 @@ class Home extends Component {
         <Popover id={`popover-positioned-${placement}`}>
           <Popover.Title as="h3">{`For more info email us at:`}</Popover.Title>
           <Popover.Content>
+            <Linkify>
             chaplainegert@yahoo.com
+            </Linkify>
           </Popover.Content>
         </Popover>
       }
