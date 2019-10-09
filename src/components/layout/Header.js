@@ -17,14 +17,6 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
           <Nav.Link href="/posts">Resources</Nav.Link>
           <Nav.Link onClick={logout} href="/home">Logout</Nav.Link>
         </Nav>
-        <Form inline style={{}}>
-          <a href="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
-          target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px", color:'grey'}}></i></a>
-
-          < a href= "https://www.instagram.com"
-          rel= "noopener noreferrer"
-          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px", color:'grey'}}></i></a>
-    </Form>
       </Navbar.Collapse>
     );
     const guestLinks = (
@@ -35,14 +27,6 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href="/posts">Resources</Nav.Link>
         </Nav>
-        {/* <Form inline>
-          <a href="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
-          target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px", color:'grey'}}></i></a>
-
-          < a href= "https://www.instagram.com"
-          rel= "noopener noreferrer"
-          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px", color:'grey'}}></i></a>
-    </Form> */}
       </Navbar.Collapse>
       
     );

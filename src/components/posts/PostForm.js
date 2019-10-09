@@ -15,11 +15,16 @@ const PostForm = ({ addPost }) => {
         setText('');
         setTitle('');
       }}>
-      <input placeholder="Title" value={title} onChange={e => setTitle(e.target.value)} required/>
+      <input placeholder=" Title" cols="30" rows="5" value={title} onChange={e => setTitle(e.target.value)} required
+        style={{
+          marginBottom:'10px',
+          width:'300px',
+          height:'35px'
+        }}
+      />
       <textarea name="text" cols="30" rows="5" placeholder="Create Resource" value={text} onChange={e => setText(e.target.value)} required>
-      </textarea> 
+      </textarea><br/>
      <input type="submit" className="btn btn-dark my-1" value="Submit"/>
-      
       </form>    
     </div>
   )

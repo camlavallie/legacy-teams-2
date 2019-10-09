@@ -21,11 +21,12 @@ const Login = ({ login, isAuthenticated }) => {
     e.preventDefault();
     login(email, password);
   };
-  // redirect if logged in 
 
+  // redirect if logged in 
   if(isAuthenticated) {
-    return <Redirect to='/dashboard' />;
+    return <Redirect to='/posts' />;
   }
+  
   return (
     <Fragment>
       <Container>

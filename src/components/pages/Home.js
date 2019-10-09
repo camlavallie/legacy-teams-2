@@ -25,8 +25,6 @@ class Home extends Component {
                 <Container>
                  
                   <h1 style={{textAlign:'center', fontSize:'50px'}}>Welcome to LegacyTEAMS</h1>
-              
-        
                 </Container>
               </Jumbotron>
             </Col>
@@ -50,7 +48,6 @@ class Home extends Component {
                 <Card.Body>
                 <Card.Title>Pastoral Care</Card.Title>
                 <Card.Text>
-                    Pastoral Care
                     LegacyTEAMS pastoral care includes face to face pastoral counseling and counseling. Our focus is to help clients overcome life controlling wounds from the past, strengthen their primary relationships, clarify their life calling and establish strategic vision that will provide enduring legacy to their families, team and ministry. The long term goals are to help clients achieve wholeness, healing and strength to serve God and build godly legacies.
                 </Card.Text><br/>
                  <Button variant="primary" href="/about">Go somewhere</Button>
@@ -202,7 +199,7 @@ class Home extends Component {
               <Jumbotron fluid className="jumbo-home-bottom">
                 <Container>
                    <p className="jumbotron-text" style={{ paddingTop:'50px', paddingBottom:'50px', fontSize:'20px'}}>
-                  Located on beautiful Grand Lake of the Cherokees in Grove, Oklahoma, LegacyTEAMS exist to help military chaplains, ministers, and veterans develop healthy legacies that fulfill God’s purpose for their lives and ministries. Through one-to-one mentoring and coaching, teleconferencing or personal meetings, LegacyTEAMS seeks to develop a personal relationship with each participant to help them build legacies for themselves, their family and ministry that will endure. Everyone has a heritage, but not everyone leaves a great legacy. LegacyTEAMS will help you build one that reaches to your children’s children and beyond.
+                  Located on beautiful Grand Lake of the Cherokees in Grove, Oklahoma, LegacyTEAMS exists to help individuals and couples in military and civilian ministry fulfill God’s purposes for their lives by strategically developing legacies of great worth. Through one-to-one mentoring and coaching via digital and on location encounters, LegacyTEAMS seeks to develop a relationship with each participant while facilitating a process of legacy building for personal, relational, and ministry gain. Everyone has a heritage, but not everyone leaves a great legacy. LegacyTEAMS will assist you build one so your life and ministry is fruitful and you finish your journey strong.
                   </p>
                 </Container>
               </Jumbotron>
