@@ -14,17 +14,35 @@ const PostForm = ({ addPost }) => {
         addPost({ text, title });
         setText('');
         setTitle('');
-      }}>
+      }}
+      >
       <input placeholder=" Title" cols="30" rows="5" value={title} onChange={e => setTitle(e.target.value)} required
         style={{
           marginBottom:'10px',
-          width:'300px',
-          height:'35px'
+          width:'100%',
+          padding:'10px',
+          border:'none',
+          borderBottom: '2px solid #97A4B9',
+          boxShadow: '0 1px 0 0 #97A4B9',
         }}
       />
-      <textarea name="text" cols="30" rows="5" placeholder="Create Resource" value={text} onChange={e => setText(e.target.value)} required>
+      <textarea name="text" cols="30" rows="5" placeholder="Create Resource" value={text} onChange={e => setText(e.target.value)} required
+      style={{
+              width:'100%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
+      >
       </textarea><br/>
-     <input type="submit" className="btn btn-dark my-1" value="Submit"/>
+     <input type="submit" className="btn btn-primary my-1" value="Submit"
+     style={{
+              width:'100%',
+              border:'none',
+              borderBottom: '2px solid #97A4B9',
+              boxShadow: '0 1px 0 0 #97A4B9',
+            }}
+     />
       </form>    
     </div>
   )
