@@ -12,7 +12,7 @@ import Card from 'react-bootstrap/Card';
 const PostItem = ({ 
   deletePost,
   auth,
-  post: {_id, title, text, name, user, avatar, date }
+  post: {_id, title, text, resource, name, user, avatar, date }
 }) => (
       <div className="post bg-white">
 
@@ -38,6 +38,15 @@ const PostItem = ({
                 </p>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
+              <Card.Body> 
+               <Linkify>
+                  <h1 className="my-1">
+                    {resource}
+                 </h1>
+                </Linkify>
+              </Card.Body>
+           </Accordion.Collapse>
+           <Accordion.Collapse eventKey="0">
               <Card.Body> 
                <Linkify>
                   <p className="my-1">
