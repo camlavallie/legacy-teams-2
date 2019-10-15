@@ -7,6 +7,7 @@ import Linkify from 'linkifyjs/react';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import {Link} from 'react-router-dom';
 
 
 const PostItem = ({ 
@@ -69,6 +70,13 @@ const PostItem = ({
               className="btn btn-danger">
               <i className="fa fa-trash"></i>
             </button>
+             )
+           }
+            {auth.user && !auth.loading && auth.user._id && (
+
+              <Link to={`editpost/${_id}`}>
+              <i className="fa fas-pencil">Edit</i>
+              </Link>
              )
            }
           </div>

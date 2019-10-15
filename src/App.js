@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import Posts from './components/posts/Posts';
+import EditPost from './components/posts/EditPost';
 import FAQ from './components/pages/FAQ';
 import Services from './components/pages/Services';
 import About from './components/pages/About';
@@ -41,6 +42,7 @@ const App = () => {
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} /> 
           <Route exact path='/posts' component={Posts} />
+          <Route exact path='/editpost/:id' component={EditPost} />
            <Route exact path='/services' component={Services} />
           <Route exact path='/faq' component={FAQ} />
         </Switch>

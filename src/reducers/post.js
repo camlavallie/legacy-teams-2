@@ -1,6 +1,8 @@
 import {
   GET_POSTS,
   POST_ERROR,
+  GET_POST,
+  UPDATE_POST,
   DELETE_POST,
   ADD_POST
 } from '../actions/types';
@@ -21,6 +23,12 @@ export default function ( state = initialState, action ) {
       posts: payload,
       loading: false
     }
+     case GET_POST:
+       return {
+         ...state,
+         post: action.payload,
+         loading: false
+       };
     case ADD_POST:
       return {
         ...state,
@@ -40,6 +48,13 @@ export default function ( state = initialState, action ) {
         error: payload,
         loading: false
       }
+         case UPDATE_POST:
+      return {
+        ...state,
+        posts: state.posts.map(
+          post =>
+            post.id === action.payload.id ? (post = action.payload) : post)
+      };
     default: 
       return state;
   }

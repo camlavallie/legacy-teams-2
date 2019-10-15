@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { setAlert } from './alert';
-import { GET_POSTS, POST_ERROR, DELETE_POST, ADD_POST } from './types';
+import { GET_POSTS, GET_POST, POST_ERROR, DELETE_POST, ADD_POST, UPDATE_POST } from './types';
 
 const baseUrl = process.env.REACT_APP_BASE_URL;
 // get posts 
@@ -68,3 +68,23 @@ export const addPost = formData => async dispatch => {
     });
   }
 }
+
+
+
+export const getPost = _id => async dispatch => {
+  const res = await axios.get(`${baseUrl}/posts/${_id}`);
+  dispatch({
+    type: GET_POST,
+    payload: res.data
+  });
+};
+
+
+
+export const updatePost = (post, _id) => async dispatch => {
+  const res = await axios.put(`${baseUrl}/posts/${_id}`, post);
+  dispatch({
+    type: UPDATE_POST,
+    payload: res.data
+  });
+};
