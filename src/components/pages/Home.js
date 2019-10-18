@@ -49,9 +49,14 @@ class Home extends Component {
                 <Card.Body>
                 <Card.Title>Pastoral Care</Card.Title>
                 <Card.Text>
-                    LegacyTEAMS pastoral care includes face to face pastoral counseling and counseling. Our focus is to help clients overcome life controlling wounds from the past, strengthen their primary relationships, clarify their life calling and establish strategic vision that will provide enduring legacy to their families, team and ministry. The long term goals are to help clients achieve wholeness, healing and strength to serve God and build godly legacies.
+                  Long ago we realized that life in ministry can be a lonely and exhausting journey.
+                  Having experienced the desire for someone to walk along side of us, we are now in
+                  the position to do that for others—we are here to join you as you walk out your
+                  calling individually, as a couple, or a team leader—whether you are ministering in
+                  the military or as a civilian, our goal is to encourage you as we build a supportive
+                  mentoring relationship.
                 </Card.Text><br/>
-                 <Button variant="primary" href="/about">Go somewhere</Button>
+                 {/* <Button variant="primary" href="/about">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </div>
@@ -59,11 +64,16 @@ class Home extends Component {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top"  src={require("../img/alpine.jpg")} />
                 <Card.Body>
-                <Card.Title>Engagements</Card.Title>
+                <Card.Title>trategic Processing</Card.Title>
                 <Card.Text>
-                  Engagements are on-site intensives between individuals or couples and LegacyTEAMS leaders which assesses the current situation of clients, explores ways to move forward in life, and seeks healing for moral and spiritual injuries. Engagements are tailored to the specific needs of clients, and may last from two to six days. Various tools are used to help clients assess their current situation and needs. Prayer and inner healing are an essential part of this process.
+                 The purpose of our Engagements is to facilitate transformational change that is
+                 holistic in nature. This is accomplished in three major steps: 1) assessing present
+                 realities; 2) determining desired outcomes; and, 3) facilitating the process of
+                 alignment. Intentionality, integrity, and impartation are all vital to this process. The
+                 venues for these engagements include digital communication and on-location
+                 intensives depending on the needs of the participants.
                 </Card.Text><br/>
-                <Button variant="primary">Go somewhere</Button>
+                {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </div>

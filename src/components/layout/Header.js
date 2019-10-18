@@ -12,8 +12,8 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
           <Nav.Link href="/home">Home</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          {/* <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link> */}
           <Nav.Link href="/posts">Resources</Nav.Link>
           <Nav.Link onClick={logout} href="/home">Logout</Nav.Link>
         </Nav>
@@ -23,8 +23,8 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
        <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
           <Nav.Link href="/home">Home</Nav.Link>
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          {/* <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link> */}
           <Nav.Link href="/posts">Resources</Nav.Link>
         </Nav>
       </Navbar.Collapse>
