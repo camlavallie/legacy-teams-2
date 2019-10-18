@@ -64,7 +64,7 @@ class Home extends Component {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top"  src={require("../img/alpine.jpg")} />
                 <Card.Body>
-                <Card.Title>trategic Processing</Card.Title>
+                <Card.Title>Strategic Processing</Card.Title>
                 <Card.Text>
                  The purpose of our Engagements is to facilitate transformational change that is
                  holistic in nature. This is accomplished in three major steps: 1) assessing present
