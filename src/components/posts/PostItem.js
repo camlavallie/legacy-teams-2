@@ -76,7 +76,7 @@ const PostItem = ({
 
               <Link to={`editpost/${_id}`}>
 
-              <i class="fa fa-pencil" style={{fontSize:'24px', marginLeft:'20px'}}></i>
+              <i className="fa fa-pencil" style={{fontSize:'24px', marginLeft:'20px'}}></i>
               </Link>
              )
            }

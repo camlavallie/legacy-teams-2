@@ -181,21 +181,21 @@ class Home extends Component {
                 <Container>
                   <h1 className="display-4" style={{textAlign:"center", margin:'20px'}}>Frequently Asked Questions (FAQ)</h1>
                   <Card body className="faq-card">
-                    <h3 className="faq-head">WHAT'S THE BEST WAY TO CONTACT LEGACYTEAMS?</h3><hr/>
+                    <h3 className="faq-head">WHAT'S THE BEST WAY TO CONTACT LegacyTEAMS?</h3><hr/>
                     <p>Simply email us at chaplainegert@yahoo.com. We'll get back to you within 24 hours.</p><br/>
                     </Card>
 
                     <Card body className="faq-card">
-                    <h3 className="faq-head">I’M MARRIED. IS IT NECESSARY THAT MY SPOUSE ALSO PARTICIPATE IN MEETINGS WITH LEGACYTEAMS?</h3><hr/>
+                    <h3 className="faq-head">I’M MARRIED. IS IT NECESSARY THAT MY SPOUSE ALSO PARTICIPATE IN MEETINGS WITH LegacyTEAMS?</h3><hr/>
                     <p>No. You are welcome to contact us privately, and we can work with you individually. In most cases, however, we want to work with both spouses to achieve marital and family wellness.</p><br/>
                     </Card>
                     <Card body className="faq-card">
-                    <h3 className="faq-head">WHAT SHOULD I EXPECT FROM LEGACYTEAMS IN TERMS OF ASSISTANCE?</h3><hr/>
+                    <h3 className="faq-head">WHAT SHOULD I EXPECT FROM LegacyTEAMS IN TERMS OF ASSISTANCE?</h3><hr/>
                     <p>Much of your work with LegacyTEAMS can be conducted by calls and teleconferencing. Pending the needs of an individual or couple, we may recommend a marriage engagement (face to face intensive) with the location to be determined. Engagements vary in length from two to six days with proportionate costs.</p><br/>
                     </Card>
 
                     <Card body className="faq-card">
-                    <h3 className="faq-head">HOW MUCH DOES IT COST TO WORK WITH LEGACYTEAMS?</h3><hr/>
+                    <h3 className="faq-head">HOW MUCH DOES IT COST TO WORK WITH LegacyTEAMS?</h3><hr/>
                     <p>Costs vary based on whether one or two individuals (i.e., a couple) are receiving assistance and which members of LegacyTEAMS are providing care. A schedule of fees will be forwarded upon request. Fees may fluctuate based on the situation of individuals. LegacyTEAMS receives donations and gifts to keep ministry costs affordable.</p>
                     </Card>
                 </Container>
