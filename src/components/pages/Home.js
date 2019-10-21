@@ -178,11 +178,12 @@ class Home extends Component {
       
        <Row>
             <Col sm={12}>
+                <Linkify>
                 <Container>
                   <h1 className="display-4" style={{textAlign:"center", margin:'20px'}}>Frequently Asked Questions (FAQ)</h1>
                   <Card body className="faq-card">
                     <h3 className="faq-head">WHAT'S THE BEST WAY TO CONTACT LegacyTEAMS?</h3><hr/>
-                    <p>Simply email us at chaplainegert@yahoo.com. We'll get back to you within 24 hours.</p><br/>
+                    <p>Simply email us at chaplainegert@yahoo.com <br/>We'll get back to you within 24 hours.</p><br/>
                     </Card>
 
                     <Card body className="faq-card">
@@ -199,6 +200,7 @@ class Home extends Component {
                     <p>Costs vary based on whether one or two individuals (i.e., a couple) are receiving assistance and which members of LegacyTEAMS are providing care. A schedule of fees will be forwarded upon request. Fees may fluctuate based on the situation of individuals. LegacyTEAMS receives donations and gifts to keep ministry costs affordable.</p>
                     </Card>
                 </Container>
+                </Linkify>
     
             </Col>
           </Row>
