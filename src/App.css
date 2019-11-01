@@ -391,7 +391,7 @@ button {
     body,
     html {
       font-family: 'Lucida Sans', Arial, sans-serif;
-      background-repeat: no-repeat;
+      /* background-repeat: no-repeat; */
       width: 100%;
       height: auto;
       overflow-x: hidden;
