@@ -28,7 +28,7 @@ const PostItem = ({
           </div>
           <div>
           <Accordion >
-            <Card>
+            <Card style={{maxWidth:'90%'}}>
              <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="0">
                <h4>{title}</h4>
