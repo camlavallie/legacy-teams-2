@@ -1,4 +1,4 @@
- body,
+body,
     html {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
@@ -370,7 +370,7 @@ button {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
-
+/* 
 @media (max-width: 600px) {
    body {
       width: 100%;
@@ -421,5 +421,1063 @@ button {
       padding: 50px;
       padding-top: 100px;
       padding-bottom: 100px;
+    }
+} */
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #ffffff;
+  color: rgb(90, 90, 90);
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/compass1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  opacity: .9;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-shadow: #636e79;
+}
+.jumbo-home-3 {
+  background-image: url('../src/components/img/opendoor.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: .9;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-shadow: #636e79;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: auto;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/sunset.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+  width: auto;
+  height: auto;
+  margin-block-end: 0;
+   padding: 50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+.login {
+  text-align: center;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+
+
+.bottom {
+ display: flex;
+ flex-wrap: wrap;
+ text-align: center;
+ justify-content: center;
+
+}
+.faq-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:20px;
+}
+.img-container {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+
+}
+h3{
+  padding: 10px;
+  background-color: rgb(202, 211, 219);
+}
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+
+/* Text Styles*/
+
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+/* Padding */
+
+.p {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py {
+  padding: 0.5rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* Margin */
+
+.m {
+  margin: 0.5rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my {
+  margin: 0.5rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+.line {
+  height: 1px;
+  background: #ccc;
+  margin: 1.5rem 0;
+}
+
+/* Forms */
+
+.form .form-group {
+  margin: 1.2rem 0;
+}
+
+.form .form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form input[type='date'],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+.form input[type='submit'],
+button {
+  font: inherit;
+}
+
+
+/* Posts Page */
+.post-form .post-form-header {
+  background: var(--primary-color);
+  padding: 0.5rem;
+}
+
+.post {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 25px;
+}
+
+
+
+.post img {
+  width: 100px;
+}
+
+/* .post .comment-count {
+  background: var(--light-color);
+  color: var(--primary-color);
+  padding: 0.1rem 0.2rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+} */
+
+.post .post-date {
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+
+/* this is the Header text in the top jumbotron*/
+.display-4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.jumbotron-3-footer {
+  background-color: #ffffff;
+  color: rgb(90, 90, 90);
+  padding-bottom: 35px;
+  padding-top: 30px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.bottom-nav a, a {
+  padding: 10px 10px;
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+  text-decoration-color:white;
+
+
+}
+
+.showcase {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.jumbo-home {
+  background-image: url('../src/components/img/compass1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  opacity: .9;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-shadow: #636e79;
+}
+.jumbo-home-3 {
+  background-image: url('../src/components/img/opendoor.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: .9;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-shadow: #636e79;
+}
+
+.jumbo-home-2 {
+  background-image: url('../src/components/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .9;
+  width: auto;
+  padding:50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+.jumbo-home-bottom {
+  background-image: url('../src/components/img/sunset.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+  width: auto;
+  height: auto;
+  margin-block-end: 0;
+   padding: 50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+
+.login {
+  text-align: center;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+
+
+.bottom {
+ display: flex;
+ flex-wrap: wrap;
+ text-align: center;
+ justify-content: center;
+
+}
+.faq-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:20px;
+}
+.img-container {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+
+}
+h3{
+  padding: 10px;
+  background-color: rgb(202, 211, 219);
+}
+
+
+.the-team {
+  padding-top: 20px;
+}
+
+
+.bio-picture-egert {
+text-align: center;
+}
+
+
+
+.bio-text-egert {
+  text-align: left;
+}
+
+
+
+.bio-picture-rossi {
+  padding-top: 20px;
+}
+
+
+
+.bio-text-rossi {
+  text-align: left;
+}
+
+.row-rossi {
+  padding-top: 5px;
+}
+
+.bio-picture-meyer {
+  margin-right: 5px;
+  text-align: center;
+}
+
+
+
+.bio-text-meyer {
+ text-align: left;
+}
+
+.row-meyer {
+  padding-bottom: 30px;
+}
+
+.top-jumbo-info{
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+  margin-bottom: 150px
+}
+
+
+.row-item {
+  margin: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.faq-head {
+  margin-bottom: 10px;
+}
+
+/* Text Styles*/
+
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+/* Padding */
+
+.p {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py {
+  padding: 0.5rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* Margin */
+
+.m {
+  margin: 0.5rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my {
+  margin: 0.5rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+.line {
+  height: 1px;
+  background: #ccc;
+  margin: 1.5rem 0;
+}
+
+/* Forms */
+
+.form .form-group {
+  margin: 1.2rem 0;
+}
+
+.form .form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form input[type='date'],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+.form input[type='submit'],
+button {
+  font: inherit;
+}
+
+
+/* Posts Page */
+.post-form .post-form-header {
+  background: var(--primary-color);
+  padding: 0.5rem;
+}
+
+.post {
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 25px;
+}
+
+
+
+.post img {
+  width: 100px;
+}
+
+/* .post .comment-count {
+  background: var(--light-color);
+  color: var(--primary-color);
+  padding: 0.1rem 0.2rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+} */
+
+.post .post-date {
+  color: #aaa;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
     }
 }
