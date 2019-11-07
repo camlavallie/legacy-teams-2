@@ -15,9 +15,8 @@ const PostItem = ({
   auth,
   post: {_id, title, text, resource, name, user, avatar, date }
 }) => (
-      <div className="post bg-white">
-
-          <div >
+      <div className="post bg-white ">
+          <div>
               <img
                 className="round-img"
                 style={{textAlign:'center'}}
@@ -28,11 +27,11 @@ const PostItem = ({
            
           </div>
           <div>
-          <Accordion>
+          <Accordion >
             <Card>
              <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="0">
-               <h2>{title}</h2>
+               <h4>{title}</h4>
               </Accordion.Toggle>
                 <p className="post-date">
                       Posted on <Moment format='YYYY/MM/DD'>{date}</Moment>
@@ -41,9 +40,9 @@ const PostItem = ({
             <Accordion.Collapse eventKey="0">
               <Card.Body> 
                <Linkify>
-                  <h1 className="my-1">
+                  <h5 className="my-1">
                     {resource}
-                 </h1>
+                 </h5>
                 </Linkify>
               </Card.Body>
            </Accordion.Collapse>

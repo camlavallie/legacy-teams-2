@@ -34,7 +34,7 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
 
         <hr />
         {posts.map(post => (
-          <PostItem key={post._id} post={post} />
+          <PostItem key={post._id} post={post}/>
         ))}
       </Jumbotron>
     </Fragment>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Tab from 'react-bootstrap/Tab';
+import Modal from 'react-bootstrap/Modal';
 import Tabs from 'react-bootstrap/Tabs';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
@@ -14,18 +15,18 @@ import Linkify from 'linkifyjs/react';
 
 
 
+function Home() {
 
-class Home extends Component {
-  render() {
-
+    const [show, setShow] = useState(false);
     return (
       <div className="full-home">
            <Row>
             <Col sm={12}>
               <Jumbotron fluid className="jumbo-home">
                 <Container>
-                 
-                  <h1 style={{textAlign:'center', fontSize:'50px'}}>Welcome to LegacyTEAMS</h1>
+                  <h1 style={{textAlign:'center', fontSize:'50px'}}>
+                    Welcome to LegacyTEAMS
+                  </h1>
                 </Container>
               </Jumbotron>
             </Col>
@@ -106,6 +107,36 @@ class Home extends Component {
     </OverlayTrigger>
   ))}
 </ButtonToolbar>
+                </Card.Body>
+              </Card>
+            </div>
+             <div className="img-container"> 
+              <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top"  src={require("../img/seed.jpg")} />
+                <Card.Body>
+                <Card.Title>Partner With LegacyTEAMS</Card.Title>
+                <Card.Text>
+                 For more information on partnering with LegacyTEAMS check out the link below.
+                </Card.Text><br/>
+                <Button variant="primary" onClick={() => setShow(true)}>Partner!</Button>
+                <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modal-90w"
+        aria-labelledby="example-custom-modal-styling-title"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-custom-modal-styling-title">
+            For donations, send them to:
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>
+           P.O. Box 451298,
+          </p>
+          <p>Grove, OK 74345</p>
+        </Modal.Body>
+      </Modal>
                 </Card.Body>
               </Card>
             </div>
@@ -221,9 +252,8 @@ class Home extends Component {
             </Col>
           </Row>
         </div>
-
     )
   }
-}
+
 
 export default Home;
