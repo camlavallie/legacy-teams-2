@@ -371,7 +371,7 @@ button {
   margin-bottom: 0.5rem;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
    body {
       width: 100%;
       height: auto;
@@ -390,6 +390,8 @@ button {
       padding-top: 200px;
       padding-bottom: 200px;
       text-shadow: #636e79;
+       width: 100%;
+       height: auto;
     }
 
     .jumbo-home-3 {
@@ -402,6 +404,8 @@ button {
       padding-top: 200px;
       padding-bottom: 200px;
       text-shadow: #636e79;
+       width: 100%;
+       height: auto;
     }
 
     .jumbo-home-bottom {
@@ -412,7 +416,7 @@ button {
       background-attachment: fixed;
       color: white;
       opacity: .8;
-      width: auto;
+      width: 100%;
       height: auto;
       margin-block-end: 0;
       padding: 50px;
