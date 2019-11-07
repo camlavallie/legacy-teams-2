@@ -410,14 +410,13 @@ button {
 
     .jumbo-home-bottom {
       background-image: url('../src/components/img/sunset.jpg');
-      background-size: cover;
+      background-size: 150vh;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
       color: white;
       opacity: .8;
       width: 100%;
-      height: auto;
       margin-block-end: 0;
       padding: 50px;
       padding-top: 100px;
