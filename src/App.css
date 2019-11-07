@@ -378,4 +378,45 @@ button {
       overflow-x: hidden;
       scroll-behavior: smooth;
     }
+
+    .jumbo-home {
+      background-image: url('../src/components/img/compass1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      color: rgb(255, 255, 255);
+      opacity: .9;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      text-shadow: #636e79;
+    }
+
+    .jumbo-home-3 {
+      background-image: url('../src/components/img/opendoor.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: .9;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      text-shadow: #636e79;
+    }
+
+    .jumbo-home-bottom {
+      background-image: url('../src/components/img/sunset.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      opacity: .8;
+      width: auto;
+      height: auto;
+      margin-block-end: 0;
+      padding: 50px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
 }
