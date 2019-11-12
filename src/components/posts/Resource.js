@@ -52,9 +52,8 @@ class Resource extends Component {
 
   render() {
     return (
-      // <div className="jumbo-home-3">
      <Jumbotron className = "jumbo-home-3">
-     <h1
+        <h1
           className="large text-white"
           style={{
             textAlign: 'center',
@@ -70,7 +69,7 @@ class Resource extends Component {
      onChange={this.handleInputChange}
      />
   </InputGroup>
-        <div className="container">{this.state.filteredData.map(i => 
+        <div>{this.state.filteredData.map(i => 
           <div className="post bg-white ">
           <div>
               <img
@@ -113,10 +112,11 @@ class Resource extends Component {
            </Accordion.Collapse>
          </Card>
        </Accordion>
-        </div></div>
-        )}</div>
+        </div>
+        </div>
+        )}
+      </div>
       </Jumbotron>
-      // </div>
     );
   }
 }
