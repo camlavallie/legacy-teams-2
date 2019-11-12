@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { setAlert } from './alert';
-import { GET_POSTS, GET_POST, POST_ERROR, DELETE_POST, ADD_POST, UPDATE_POST } from './types';
+import { GET_POSTS, GET_POST, POST_ERROR, DELETE_POST, ADD_POST, UPDATE_POST, GET_DATA } from './types';
 
 const baseUrl = process.env.REACT_APP_BASE_URL;
 // get posts 
@@ -19,6 +19,43 @@ export const getPosts = () => async dispatch => {
       });
   }
 };
+
+  // export const getData = () => async dispatch => {
+  //   fetch(`http://localhost:5000/api/posts`)
+  //     .then(response => response.json())
+  //     .then(data => {
+  //       const {
+  //         query
+  //       } = this.state;
+  //       const filteredData = data.filter(element => {
+  //         return element.title.toLowerCase().includes(query.toLowerCase());
+  //       });
+
+  //       this.setState({
+  //         data,
+  //         filteredData
+  //       });
+  //     });
+  // };
+
+
+  export const getData = () => async dispatch => {
+    try {
+      const res = await axios.fetch(`${baseUrl}/posts`);
+      dispatch({
+        type: GET_DATA,
+        payload: res.data
+      })
+    } catch (err) {
+      dispatch({
+        type: POST_ERROR,
+        payload: {
+          msg: err.response.statusText,
+          status: err.response.status
+        }
+      });
+    }
+  };
 
 // delete post
 

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import Posts from './components/posts/Posts';
+import Resource from './components/posts/Resource';
 import EditPost from './components/posts/EditPost';
 import FAQ from './components/pages/FAQ';
 import Services from './components/pages/Services';
@@ -45,6 +46,7 @@ const App = () => {
           <Route exact path='/editpost/:id' component={EditPost} />
            <Route exact path='/services' component={Services} />
           <Route exact path='/faq' component={FAQ} />
+          <Route exact path='/resource' component={Resource} />
         </Switch>
         </section>
       <Footer/>

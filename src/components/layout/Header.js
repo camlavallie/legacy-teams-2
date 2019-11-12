@@ -14,7 +14,8 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
           <Nav.Link href="/home">Home</Nav.Link>
           {/* <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link> */}
-          <Nav.Link href="/posts">Resources</Nav.Link>
+          <Nav.Link href="/posts">Create Resource</Nav.Link>
+           <Nav.Link href="/resource">Resources</Nav.Link>
           <Nav.Link onClick={logout} href="/home">Logout</Nav.Link>
         </Nav>
       </Navbar.Collapse>
@@ -25,7 +26,7 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
           <Nav.Link href="/home">Home</Nav.Link>
           {/* <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link> */}
-          <Nav.Link href="/posts">Resources</Nav.Link>
+          <Nav.Link href="/resource">Resources</Nav.Link>
         </Nav>
       </Navbar.Collapse>
       

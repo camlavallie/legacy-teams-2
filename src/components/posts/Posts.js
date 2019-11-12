@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Component, Fragment, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Spinner from '../layout/Spinner';
 import { connect } from 'react-redux';
@@ -6,6 +6,15 @@ import { getPosts } from '../../actions/post';
 import PostItem from './PostItem';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import PostForm from './PostForm';
+// import Search from './Search';
+
+
+class Search extends Component{
+  render(){
+  return(
+    <div></div>
+  )}
+};
 
 const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
   useEffect(() => {
@@ -31,6 +40,9 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
           Resources
         </h1>
         {auth.user && !auth.loading && <PostForm />}
+        <div className="container">
+          <Search />
+        </div>
 
         <hr />
         {posts.map(post => (

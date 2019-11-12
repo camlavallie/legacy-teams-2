@@ -4,7 +4,8 @@ import {
   GET_POST,
   UPDATE_POST,
   DELETE_POST,
-  ADD_POST
+  ADD_POST,
+  GET_DATA
 } from '../actions/types';
 const initialState = {
   posts: [],
@@ -24,6 +25,7 @@ export default function ( state = initialState, action ) {
       loading: false
     }
      case GET_POST:
+     case GET_DATA:
        return {
          ...state,
          post: action.payload,
