@@ -1,5 +1,4 @@
-body,
-    html {
+body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -392,6 +391,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -731,6 +732,8 @@ button {
 
     .jumbo-home {
       background-image: url('../src/components/img/compass1.jpg');
+      min-width: 480px;
+      max-width: auto;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -777,8 +780,7 @@ button {
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -821,6 +823,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1153,8 +1157,7 @@ button {
 
 /* ----------- Retina Screens ----------- */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -1197,6 +1200,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1547,6 +1552,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1881,8 +1888,7 @@ button {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -1925,6 +1931,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2243,8 +2251,7 @@ button {
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -2287,6 +2294,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2605,8 +2614,7 @@ button {
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -2649,6 +2657,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2969,8 +2979,7 @@ button {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -3013,6 +3022,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3331,8 +3342,7 @@ button {
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -3375,6 +3385,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3693,8 +3705,7 @@ button {
 
 /* Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -3737,6 +3748,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4057,8 +4070,7 @@ button {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -4101,6 +4113,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4419,8 +4433,7 @@ button {
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -4463,6 +4476,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -4781,8 +4796,7 @@ button {
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -4825,6 +4839,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -5145,8 +5161,7 @@ button {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -5189,6 +5204,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -5507,8 +5524,7 @@ button {
 
 /* Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -5551,6 +5567,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -5869,8 +5887,7 @@ button {
 
 /* Landscape */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -5913,6 +5930,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -6233,8 +6252,7 @@ button {
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -6277,6 +6295,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -6595,8 +6615,7 @@ button {
 
 /* Portrait */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -6639,6 +6658,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -6957,8 +6978,7 @@ button {
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -7001,6 +7021,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7322,8 +7344,7 @@ button {
 
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -7366,6 +7387,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7684,8 +7707,7 @@ button {
 
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -7728,6 +7750,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -8046,8 +8070,7 @@ button {
 
 /* Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -8090,6 +8113,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -8410,8 +8435,7 @@ button {
 
 /* Portrait and Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -8454,6 +8478,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -8772,8 +8798,7 @@ button {
 
 /* Portrait */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -8816,6 +8841,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -9134,8 +9161,7 @@ button {
 
 /* Landscape */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -9178,6 +9204,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -9498,8 +9526,7 @@ button {
 
 /* Portrait and Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -9542,6 +9569,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -9860,8 +9889,7 @@ button {
 
 /* Portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -9904,6 +9932,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10222,8 +10252,7 @@ button {
 
 /* Landscape */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
-  body,
-    html {
+  body {
       font-family: 'Lucida Sans', Arial, sans-serif;
       width: 100%;
       height: auto;
@@ -10266,6 +10295,8 @@ button {
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
+  min-width: 480px;
+  max-width: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

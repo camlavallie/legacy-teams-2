@@ -13,6 +13,7 @@ class Resource extends Component {
     query: "",
     data: [],
     filteredData: [],
+
   };
   
   handleInputChange = event => {
@@ -70,7 +71,7 @@ class Resource extends Component {
      />
   </InputGroup>
         <div>{this.state.filteredData.map(i => 
-          <div className="post bg-white ">
+          <div className="post bg-white " key={i}>
           <div>
               <img
                 className="round-img"
