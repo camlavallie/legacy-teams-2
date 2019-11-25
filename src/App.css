@@ -46,7 +46,7 @@ body,
 
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
-  width: 100%;
+  max-width:100%;
   height: auto;
   color: rgb(255, 255, 255);
 }
@@ -56,6 +56,8 @@ body,
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+    max-width:100%;
+    height: auto;
   opacity: .9;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -721,7 +723,8 @@ button {
 
 
 @media screen and (max-width: 800px) {
-  body .jumbo-home .jumbo-home-3 .jumbo-home-2 .jumbo-home-bottom {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  body {
+    max-width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    height: auto;
   }
 }
