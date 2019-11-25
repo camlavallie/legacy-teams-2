@@ -716,3 +716,12 @@ button {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
+
+
+
+
+@media screen and (max-width: 800px) {
+  body .jumbo-home .jumbo-home-3 .jumbo-home-2 .jumbo-home-bottom {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
