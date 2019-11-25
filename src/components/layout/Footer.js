@@ -18,9 +18,7 @@ class Footer extends Component {
           <div className="jumbotron-3-footer">
         <div className="bottom-nav">
         <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-        <a href="/services">Services</a>
+        <a href="/resource">Resources</a>
         </div>
 
      

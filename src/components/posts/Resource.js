@@ -7,6 +7,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Card from 'react-bootstrap/Card';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
 
 class Resource extends Component {
   state = {
@@ -53,14 +54,16 @@ class Resource extends Component {
 
   render() {
     return (
-     <Jumbotron className = "jumbo-home-3">
+     <div className = "jumbo-home-3">
+     <Container>
+
         <h1
           className="large text-white"
           style={{
             textAlign: 'center',
             marginBottom: '150px'
           }}
-        >
+          >
           Resources
         </h1>
         <InputGroup size="lg">
@@ -83,8 +86,8 @@ class Resource extends Component {
            
           </div>
           <div>
-          <Accordion >
-            <Card style={{maxWidth:'90%'}}>
+          <Accordion className="bg-white">
+            <Card>
              <Card.Header>
               <Accordion.Toggle as={Button} variant="link" eventKey="0">
                <h4>{i.title}</h4>
@@ -96,7 +99,7 @@ class Resource extends Component {
             <Accordion.Collapse eventKey="0">
               <Card.Body> 
                <Linkify>
-                  <h5 className="my-1">
+                  <h5>
                     {i.resource}
                  </h5>
                 </Linkify>
@@ -105,7 +108,7 @@ class Resource extends Component {
            <Accordion.Collapse eventKey="0">
               <Card.Body> 
                <Linkify>
-                  <p className="my-1">
+                  <p>
                     {i.text}
                  </p>
                 </Linkify>
@@ -117,7 +120,8 @@ class Resource extends Component {
         </div>
         )}
       </div>
-      </Jumbotron>
+        </Container>
+      </div>
     );
   }
 }

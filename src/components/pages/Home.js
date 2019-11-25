@@ -28,6 +28,7 @@ function Home() {
                     Welcome to LegacyTEAMS
                   </h1>
                 </Container>
+
               </Jumbotron>
             </Col>
           </Row>
