@@ -727,7 +727,7 @@ button {
   .jumbo-home {
     background-image: url('../src/components/img/compass1.jpg');
     background-size: cover;
-    width: 100%;
+     max-width: 414px;
     height: auto;
   }
   .jumbo-home-bottom {
@@ -736,7 +736,7 @@ button {
   background-attachment: fixed;
   color: white;
   opacity: .8;
-  width: 100%;
+   max-width: 414px;
   height: auto;
   margin-block-end: 0;
    padding: 50px;
@@ -749,11 +749,419 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  width: 100%;
+  max-width: 414px;
   height: auto;
   opacity: .9;
   padding-top: 200px;
   padding-bottom: 200px;
   text-shadow: #636e79;
 }
+}
+
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+
+
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  body,
+    html {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      width: 100%;
+      height: auto;
+      min-width: 100%;
+      min-height: auto;
+      max-width: 100%;
+      max-height: auto;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
 }
