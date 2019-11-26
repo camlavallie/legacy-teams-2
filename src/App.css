@@ -723,8 +723,37 @@ button {
 
 
 @media screen and (max-width: 800px) {
-  body {
-    max-width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+
+  .jumbo-home {
+    background-image: url('../src/components/img/compass1.jpg');
+    background-size: cover;
+    width: 100%;
     height: auto;
   }
+  .jumbo-home-bottom {
+  background-image: url('../src/components/img/sunset.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+  width: 100%;
+  height: auto;
+  margin-block-end: 0;
+   padding: 50px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.jumbo-home-3 {
+  background-image: url('../src/components/img/opendoor.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  opacity: .9;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-shadow: #636e79;
+}
 }
