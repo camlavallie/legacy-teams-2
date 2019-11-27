@@ -3,14 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button';
-// import Jumbotron from 'react-bootstrap/Jumbotron';
 import Tab from 'react-bootstrap/Tab';
-// import Modal from 'react-bootstrap/Modal';
 import Tabs from 'react-bootstrap/Tabs';
-// import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-// import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
-// import Popover from 'react-bootstrap/Popover';
 import Linkify from 'linkifyjs/react';
 
 
@@ -111,9 +105,12 @@ function Home() {
     <p class="text-gray-700 text-base">
         We greatly appreciate your partnership in prayer. If you'd like to give a monetary donation or contribute financially you can send all donations to:
     </p><hr/>
+    <div class="select-all ...">
+ 
     <p class="text-gray-700 text-base">
         PO BOX 451298<br/>Grove, OK 74345<br/>
     </p><hr/>
+</div>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#support</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#planting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#goodsoil</span>
@@ -231,18 +228,7 @@ function Home() {
     <p class="mt-2 text-gray-600">LegacyTEAMS exists to help individuals and couples in military and civilian ministry fulfill God’s purposes for their lives by strategically developing legacies of great worth. Through one-to-one mentoring and coaching via digital and on location encounters, LegacyTEAMS seeks to develop a relationship with each participant while facilitating a process of legacy building for personal, relational, and ministry gain. Everyone has a heritage, but not everyone leaves a great legacy. LegacyTEAMS will assist you build one so your life and ministry is fruitful and you finish your journey strong.</p>
   </div>
 </div>
-        </Container>
-        {/* <Row>
-            <Col sm={12}>
-              <Jumbotron fluid className="jumbo-home-bottom">
-                <Container>
-                   <p className="jumbotron-text" style={{ paddingTop:'50px', paddingBottom:'50px', fontSize:'20px'}}>
-                  Located on beautiful Grand Lake of the Cherokees in Grove, Oklahoma, LegacyTEAMS exists to help individuals and couples in military and civilian ministry fulfill God’s purposes for their lives by strategically developing legacies of great worth. Through one-to-one mentoring and coaching via digital and on location encounters, LegacyTEAMS seeks to develop a relationship with each participant while facilitating a process of legacy building for personal, relational, and ministry gain. Everyone has a heritage, but not everyone leaves a great legacy. LegacyTEAMS will assist you build one so your life and ministry is fruitful and you finish your journey strong.
-                  </p>
-                </Container>
-              </Jumbotron>
-            </Col>
-          </Row> */}
+        </Container><hr/>
         </div>
     )
   }
