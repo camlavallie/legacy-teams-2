@@ -1,40 +1,29 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Tab from 'react-bootstrap/Tab';
-import Modal from 'react-bootstrap/Modal';
+// import Modal from 'react-bootstrap/Modal';
 import Tabs from 'react-bootstrap/Tabs';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
-import Popover from 'react-bootstrap/Popover';
+// import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+// import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+// import Popover from 'react-bootstrap/Popover';
 import Linkify from 'linkifyjs/react';
 
 
-
 function Home() {
-
-    const [show, setShow] = useState(false);
     return (
-      <div className="full-home">
-           <Row>
-            <Col sm={12}>
-              <Jumbotron fluid className="jumbo-home">
-                <Container>
-                  <h1 style={{textAlign:'center', fontSize:'50px'}}>
-                    Welcome to LegacyTEAMS
-                  </h1>
-                </Container>
+      <div>
 
-              </Jumbotron>
-            </Col>
-          </Row>
+<div class="bg-cover bg-center ..." className="jumbo-home">
 
-
-
+      <h1 style={{textAlign:'center', fontSize:'50px'}}>
+        Welcome to LegacyTEAMS
+      </h1>
+</div>
         <Container 
         style={{
           marginBottom:'25px'
@@ -46,100 +35,87 @@ function Home() {
     
               <div className="bottom">
             <div className="img-container"> 
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={require("../img/bible.jpg")} />
-                <Card.Body>
-                <Card.Title>Pastoral Care</Card.Title>
-                <Card.Text>
+              <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src={require("../img/bible.jpg")} alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Pastoral Care</div>
+    <p class="text-gray-700 text-base">
                   Long ago we realized that life in ministry can be a lonely and exhausting journey.
                   Having experienced the desire for someone to walk along side of us, we are now in
                   the position to do that for others—we are here to join you as you walk out your
                   calling individually, as a couple, or a team leader—whether you are ministering in
                   the military or as a civilian, our goal is to encourage you as we build a supportive
                   mentoring relationship.
-                </Card.Text><br/>
-                 {/* <Button variant="primary" href="/about">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
+    </p>
+  </div>
+  <div class="px-6 py-4">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#pastor</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#ministry</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#mentor</span>
+  </div>
+</div>
+            </div>
+
+              <div className="img-container"> 
+              <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src={require("../img/alpine.jpg")} alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Strategic Processing</div>
+    <p class="text-gray-700 text-base">
+     The purpose of our Engagements is to facilitate transformational change that is holistic in nature. Accomplished in three major steps: 
+     <br/> • assessing present realities
+     <br/> • determining desired outcomes 
+     <br/> • facilitating the process of 
+     alignment. Intentionality, integrity, and impartation are all vital to this process. The
+     venues for these engagements include digital communication and on-location
+     intensives depending on the needs of the participants.
+    </p>
+  </div>
+  <div class="px-6 py-4">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#strategy</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#process</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#transformation</span>
+  </div>
+</div>
             </div>
               <div className="img-container"> 
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top"  src={require("../img/alpine.jpg")} />
-                <Card.Body>
-                <Card.Title>Strategic Processing</Card.Title>
-                <Card.Text>
-                 The purpose of our Engagements is to facilitate transformational change that is
-                 holistic in nature. This is accomplished in three major steps: 1) assessing present
-                 realities; 2) determining desired outcomes; and, 3) facilitating the process of
-                 alignment. Intentionality, integrity, and impartation are all vital to this process. The
-                 venues for these engagements include digital communication and on-location
-                 intensives depending on the needs of the participants.
-                </Card.Text><br/>
-                {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-              </Card>
-            </div>
-              <div className="img-container"> 
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={require("../img/steps.jpg")} />
-                <Card.Body>
-                <Card.Title>Next Steps</Card.Title>
-                <Card.Text>
-                  Through teleconferencing and face to face meetings and engagements, ministry participants will work with LegacyTEAMS to identify areas that need growth, change and transformation. After the initial assessments and interview, LegacyTEAMS will begin a process of coaching, mentoring and pastoral care to equip individuals with the skills, spiritual insight and tools to develop their own long range strategic vision for themselves, family and team.
-                </Card.Text><br/>
-                <ButtonToolbar style={{justifyContent:'center'}} >
-  {['bottom'].map(placement => (
-    <OverlayTrigger
-      trigger="click"
-      key={placement}
-      placement={placement}
-      overlay={
-        <Popover id={`popover-positioned-${placement}`}>
-          <Popover.Title as="h3">{`For more info email us at:`}</Popover.Title>
-          <Popover.Content>
-            <Linkify>
-            chaplainegert@yahoo.com
-            </Linkify>
-          </Popover.Content>
-        </Popover>
-      }
-    >
-      <Button style={{textAlign:'center'}} className="dark" variant="primary">Contact Us</Button>
-    </OverlayTrigger>
-  ))}
-</ButtonToolbar>
-                </Card.Body>
-              </Card>
+              <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full"  src={require("../img/steps.jpg")} alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Next Steps</div>
+    <p class="text-gray-700 text-base">
+        Through teleconferencing and face to face meetings and engagements, ministry participants will work with LegacyTEAMS to identify areas that need growth, change and transformation.After the initial assessments and interview, LegacyTEAMS will begin a process of coaching, mentoring and pastoral care to equip individuals with the skills, spiritual insight and tools to develop their own long range strategic vision
+        for themselves, family and team.
+    </p>
+  </div>
+   <div class="font-bold text-xl mb-2">Contact Us</div>
+  <div class="px-6 py-4">
+  <Linkify>
+    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+ legacyteams@outlook.com
+</button>
+ </Linkify>
+  </div>
+</div>
             </div>
              <div className="img-container"> 
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top"  src={require("../img/seed.jpg")} />
-                <Card.Body>
-                <Card.Title>Partner With LegacyTEAMS</Card.Title>
-                <Card.Text>
-                 For more information on partnering with LegacyTEAMS check out the link below.
-                </Card.Text><br/>
-                <Button variant="primary" onClick={() => setShow(true)}>Partner!</Button>
-                <Modal
-        show={show}
-        onHide={() => setShow(false)}
-        dialogClassName="modal-90w"
-        aria-labelledby="example-custom-modal-styling-title"
-      >
-        <Modal.Header closeButton>
-          <Modal.Title id="example-custom-modal-styling-title">
-            For donations, send them to:
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p>
-           P.O. Box 451298,
-          </p>
-          <p>Grove, OK 74345</p>
-        </Modal.Body>
-      </Modal>
-                </Card.Body>
-              </Card>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src={require("../img/seed.jpg")}  alt="Sunset in the mountains"/>
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">Partner With LegacyTEAMS</div>
+    <p class="text-gray-700 text-base">
+        For more information on partnering with LegacyTEAMS check out the link below.
+    </p>
+  </div>
+  <div class="px-6 py-4">
+    <p class="text-gray-700 text-base">
+        For more information on partnering with LegacyTEAMS check out the link below.
+    </p>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#support</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#planting</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#goodsoil</span>
+  </div>
+</div>
             </div>
           </div>
   </Tab>
@@ -239,8 +215,17 @@ function Home() {
 
   </Tab>
 </Tabs>
+{/* <div class="md:flex">
+  <div class="md:flex-shrink-0">
+    <img class="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" alt="Woman paying for a purchase"/>
+  </div>
+  <div class="mt-4 md:mt-0 md:ml-6">
+    <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">Marketing</div>
+    <a href="/" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
+    <p class="mt-2 text-gray-600">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+  </div>
+</div> */}
         </Container>
-
         <Row>
             <Col sm={12}>
               <Jumbotron fluid className="jumbo-home-bottom">
