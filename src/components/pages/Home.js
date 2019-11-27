@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 // import Button from 'react-bootstrap/Button';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
 import Tab from 'react-bootstrap/Tab';
 // import Modal from 'react-bootstrap/Modal';
 import Tabs from 'react-bootstrap/Tabs';
@@ -102,14 +102,17 @@ function Home() {
     <div class="max-w-sm rounded overflow-hidden shadow-lg">
   <img class="w-full" src={require("../img/seed.jpg")}  alt="Sunset in the mountains"/>
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">Partner With LegacyTEAMS</div>
+    <div class="font-bold text-xl mb-2">Partner With Us!</div>
     <p class="text-gray-700 text-base">
-        For more information on partnering with LegacyTEAMS check out the link below.
+        Would you like to partner with LegacyTEAMS ?
     </p>
   </div>
   <div class="px-6 py-4">
     <p class="text-gray-700 text-base">
-        For more information on partnering with LegacyTEAMS check out the link below.
+        You can send donations to:
+    </p>
+    <p class="text-gray-700 text-base">
+        PO BOX 
     </p>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#support</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#planting</span>
@@ -215,18 +218,21 @@ function Home() {
 
   </Tab>
 </Tabs>
-{/* <div class="md:flex">
+        </Container>
+        <Container style={{marginTop: 100}}>
+
+<div class="md:flex">
   <div class="md:flex-shrink-0">
-    <img class="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" alt="Woman paying for a purchase"/>
+    <img class="rounded-lg md:w-56" src={require("../img/sunset.jpg")} alt="Woman paying for a purchase"/>
   </div>
   <div class="mt-4 md:mt-0 md:ml-6">
-    <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">Marketing</div>
-    <a href="/" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
-    <p class="mt-2 text-gray-600">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+    <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">On The Water</div>
+    <a href="https://www.grandlake.com/" target="_blank" rel="noopener noreferrer" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Located on beautiful Grand Lake of the Cherokees in Grove, Oklahoma</a>
+    <p class="mt-2 text-gray-600">LegacyTEAMS exists to help individuals and couples in military and civilian ministry fulfill God’s purposes for their lives by strategically developing legacies of great worth. Through one-to-one mentoring and coaching via digital and on location encounters, LegacyTEAMS seeks to develop a relationship with each participant while facilitating a process of legacy building for personal, relational, and ministry gain. Everyone has a heritage, but not everyone leaves a great legacy. LegacyTEAMS will assist you build one so your life and ministry is fruitful and you finish your journey strong.</p>
   </div>
-</div> */}
+</div>
         </Container>
-        <Row>
+        {/* <Row>
             <Col sm={12}>
               <Jumbotron fluid className="jumbo-home-bottom">
                 <Container>
@@ -236,7 +242,7 @@ function Home() {
                 </Container>
               </Jumbotron>
             </Col>
-          </Row>
+          </Row> */}
         </div>
     )
   }
