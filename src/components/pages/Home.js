@@ -104,16 +104,16 @@ function Home() {
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Partner With Us!</div>
     <p class="text-gray-700 text-base">
-        Would you like to partner with LegacyTEAMS ?
+        Would you like to partner with LegacyTEAMS?
     </p>
   </div>
   <div class="px-6 py-4">
     <p class="text-gray-700 text-base">
-        You can send donations to:
-    </p>
+        We greatly appreciate your partnership in prayer. If you'd like to give a monetary donation or contribute financially you can send all donations to:
+    </p><hr/>
     <p class="text-gray-700 text-base">
-        PO BOX 
-    </p>
+        PO BOX 451298<br/>Grove, OK 74345<br/>
+    </p><hr/>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#support</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#planting</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#goodsoil</span>
