@@ -74,8 +74,8 @@ class Resource extends Component {
   </InputGroup>
         <div>{this.state.filteredData.map(i => 
           <div key={i}>
-          <Container>
-           <div class="md:flex bg-white rounded-lg p-5 m-10">
+          <div>
+           <div class="md:flex bg-white rounded-lg p-6 m-10">
     <img class="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" src={i.avatar} />
     < div class = "text-center md:text-left" >
       <h2 class="text-lg">{i.name}</h2>
@@ -83,10 +83,8 @@ class Resource extends Component {
       <div class="text-gray-400"> Posted on <Moment format='YYYY/MM/DD'>{i.date}</Moment></div>
       <div class="text-gray-600">{i.text}</div>
     </div>
-  </div>
- 
-         
-          </Container>
+  </div> 
+          </div>
         </div>
         )}
       </div>
