@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import Moment from 'react-moment';
-import Linkify from 'linkifyjs/react';
-import Accordion from 'react-bootstrap/Accordion';
-import Button from 'react-bootstrap/Button';
+// import Linkify from 'linkifyjs/react';
+// import Accordion from 'react-bootstrap/Accordion';
+// import Button from 'react-bootstrap/Button';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 
 class Resource extends Component {
@@ -67,25 +67,28 @@ class Resource extends Component {
         </h1>
         <InputGroup size="lg">
     <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" 
-     placeholder="Search for Resource by Title..."
+     placeholder="Search Resource By Title..."
      value={this.state.query}
      onChange={this.handleInputChange}
      />
   </InputGroup>
         <div>{this.state.filteredData.map(i => 
-          <div key={i}>
-          <div>
-           <div class="md:flex bg-white rounded-lg p-6 m-10">
-    <img class="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" src={i.avatar} />
-    < div class = "text-center md:text-left" >
-      <h2 class="text-lg">{i.name}</h2>
-      <div class="text-purple-500"><a class="text-blue-500" href={i.resource}>{i.title}</a></div>
-      <div class="text-gray-400"> Posted on <Moment format='YYYY/MM/DD'>{i.date}</Moment></div>
-      <div class="text-gray-600">{i.text}</div>
-    </div>
-  </div> 
-          </div>
-        </div>
+      < div className="img-container flex">
+  < div key={i} class="max-w-sm rounded overflow-hidden shadow-lg p-6 m-10"style={{backgroundColor:'white'}} >
+  <img className="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" alt="pic" src={i.avatar}/>
+  <div class="px-6 py-4">
+  <h2 className="text-lg">{i.name}</h2>
+    <div class="font-bold text-xl mb-2"><div className="text-purple-500"><a className="text-blue-500" href={i.resource}>{i.title}</a></div></div>
+    <div className="text-gray-400"> Posted on <Moment format='YYYY/MM/DD'>{i.date}</Moment></div>
+    <p class="text-gray-700 text-base">
+      {i.text}
+    </p>
+  </div>
+</div>
+</div>
+
+
+
         )}
       </div>
         </Container>
