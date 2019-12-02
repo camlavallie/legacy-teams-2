@@ -83,7 +83,7 @@ class Resource extends Component {
 //     </p>
 //   </div>
 // </div>
-<div class=" bg-white m-10 p-6 max-w-sm w-full lg:max-w-full lg:flex rounded ">
+<div class=" bg-white m-10 p-6 max-w-sm max-w-md lg:max-w-full md:max-w-full lg:flex md:flex rounded ">
    <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"><img className="h-48 w-48 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 md:mr-6" alt="pic" src={i.avatar}/></div>
   <div class=" p-4 flex flex-col justify-between leading-normal">
     <div class="mb-8">
