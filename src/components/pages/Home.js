@@ -12,7 +12,7 @@ function Home() {
     return (
       <div>
 
-<div class="bg-cover bg-center ..." className="jumbo-home">
+< div className = "jumbo-home bg-cover bg-center bg-fixed text-white py-40" >
 
       <h1 style={{textAlign:'center', fontSize:'50px'}}>
         Welcome to LegacyTEAMS
