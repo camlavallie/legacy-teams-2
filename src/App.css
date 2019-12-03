@@ -391,28 +391,8 @@ button {
 }
 .jumbo-home-3 {
   background-image: url('../src/components/img/opendoor.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  opacity: .9;
-  text-shadow: #636e79;
 }
 
-.jumbo-home-2 {
-  background-image: url('../src/components/img/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-  opacity: .9;
-  width: auto;
-  padding:50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  height: auto;
-}
 
 .jumbo-home-bottom {
   background-image: url('../src/components/img/sunset.jpg');
