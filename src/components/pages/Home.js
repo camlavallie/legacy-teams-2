@@ -120,13 +120,15 @@ function Home() {
           </div>
   </Tab>
   <Tab eventKey="profile" title="The Team">
-  
-  
-  <Card body className="faq-card" style={{marginTop:'50px', marginBottom:'50px'}}>
-    <p className="jumbotron-text">
-             LegacyTEAMS has brought together a team of individuals from military and civilian backgrounds who believe that God changes lives today and when we partner with HIM, the future can look quite different than the past. Our backgrounds consist of extensive military experience, marriage and family ministries, professional counseling, life coaching, church and business administration, and inner healing ministries.
-                  </p>
-  </Card>
+  <div class="md:flex my-8">
+  <div class="md:flex-shrink-0 m-6">
+    <img class="rounded-lg md:w-56" src={require("../img/team.jpg")} alt="lights"/>
+  </div>
+  <div class="mt-4 md:mt-0 md:ml-6">
+    <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">The Team</div>
+    <p class="mt-2 text-gray-600">LegacyTEAMS has brought together a team of individuals from military and civilian backgrounds who believe that God changes lives today and when we partner with HIM, the future can look quite different than the past. Our backgrounds consist of extensive military experience, marriage and family ministries, professional counseling, life coaching, church and business administration, and inner healing ministries.</p>
+  </div>
+</div>
 
     <Container className="the-team">
 
