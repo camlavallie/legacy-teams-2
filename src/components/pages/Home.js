@@ -12,9 +12,9 @@ function Home() {
     return (
       <div>
 
-< div className = "text-center bg-fixed sm:bg-local sm:bg-scroll sm:bg-fixed sm:bg-cover sm:bg-center md:bg-scroll lg:bg-local xl:bg-fixed bg-cover bg-center bg-fixed text-black py-32" >
+< div className = "text-center bg-fixed sm:bg-local sm:bg-scroll sm:bg-fixed sm:bg-cover sm:bg-center md:bg-scroll lg:bg-local xl:bg-fixed bg-cover bg-center bg-fixed text-black px-1 py-32" >
 
-       <span class="inline-block bg-gray-900 rounded-full px-16 py-6 text-sm font-semibold text-white">
+       <span class="inline-block bg-gray-900 rounded-full px-1 py-6 text-sm font-semibold text-white">
       <h1 className="font-sans rounded-full px-3 py-1 text-center text-2xl md:text-3xl lg:text-4xl xl:text-6xl">
         Welcome to LegacyTEAMS
       </h1>
