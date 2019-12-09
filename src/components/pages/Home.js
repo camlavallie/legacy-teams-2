@@ -11,17 +11,18 @@ import Linkify from 'linkifyjs/react';
 function Home() {
     return (
       <div>
+< div className =" flex jumbo-home content flex text-center sm:bg-local sm:bg-scroll sm:bg-fixed sm:bg-cover sm:bg-center md:bg-scroll lg:bg-local xl:bg-fixed bg-cover bg-center px-1 py-32" >
+       <div className="flex px-1 text-white text-4xl">
+       LegacyTEAMS
+       </div>
+      <div className="slider mt-3">
+      <div class="slider-text1 flex font-serif text-grey-200 text-center text-lg">Transforming</div>
+      <div class="slider-text2 flex font-serif text-grey-200 text-center text-lg">Encouraging</div>
+      <div class="slider-text3 flex font-serif text-grey-200 text-center text-lg">Assessing Mission Strength.</div>
+      </div>
+       </div>
 
-< div className = "text-center bg-fixed sm:bg-local sm:bg-scroll sm:bg-fixed sm:bg-cover sm:bg-center md:bg-scroll lg:bg-local xl:bg-fixed bg-cover bg-center bg-fixed text-black px-1 py-32" >
 
-       <span class="inline-block bg-gray-900 rounded-full px-2 py-12 text-sm font-semibold text-white">
-      <h1 className="font-sans rounded-full px-3 py-1 text-center text-2xl md:text-3xl lg:text-4xl xl:text-6xl">
-        Welcome to LegacyTEAMS
-      </h1>
-      <p class="font-serif text-grey-200 text-center text-xs">Transforming, Encouraging, & Assessing Mission Strength.</p>
-       </span>
-
-</div>
         <Container 
         style={{
           marginBottom:'25px'
