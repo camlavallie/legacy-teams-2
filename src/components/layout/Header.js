@@ -36,7 +36,7 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
     return (
       <div>
         <Navbar className="navbar"  expand="lg" >
-          <Navbar.Brand href="/home" style={{marginLeft:'1px', paddingRight:'170px', fontSize:'35px'}}>LegacyTEAMS<br/><p style={{fontSize:"13px", fontFamily:'Cormorant', opacity:".8", marginTop:'1px', marginBottom:'5px'}}>Transforming, Encouraging, & Assessing Mission Strength.</p></Navbar.Brand>
+          <Navbar.Brand href="/home" style={{marginLeft:'1px', paddingRight:'170px', fontSize:'35px'}}>LegacyTEAMS<br/><p style={{fontSize:"13px", fontFamily:'Cormorant', opacity:".8", marginTop:'1px', marginBottom:'5px'}}></p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ paddingLeft:'15px', fontSize:'25px', color:'white'}}>

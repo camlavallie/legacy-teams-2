@@ -12,11 +12,15 @@ function Home() {
     return (
       <div>
 
-< div className = "jumbo-home bg-fixed sm:bg-local sm:bg-scroll sm:bg-fixed sm:bg-cover sm:bg-center md:bg-scroll lg:bg-local xl:bg-fixed bg-cover bg-center bg-fixed text-white py-32" >
+< div className = "text-center bg-fixed sm:bg-local sm:bg-scroll sm:bg-fixed sm:bg-cover sm:bg-center md:bg-scroll lg:bg-local xl:bg-fixed bg-cover bg-center bg-fixed text-black py-32" >
 
-      <h1 style={{textAlign:'center', fontSize:'50px'}}>
+       <span class="inline-block bg-gray-900 rounded-full px-16 py-6 text-sm font-semibold text-white">
+      <h1 className="font-sans rounded-full px-3 py-1 text-center text-2xl md:text-3xl lg:text-4xl xl:text-6xl">
         Welcome to LegacyTEAMS
       </h1>
+      <p class="font-serif text-grey-200 text-center text-xs">Transforming, Encouraging, & Assessing Mission Strength.</p>
+       </span>
+
 </div>
         <Container 
         style={{
@@ -85,9 +89,7 @@ function Home() {
    <div class="font-bold text-xl mb-2">Contact Us</div>
   <div class="px-6 py-4">
   <Linkify>
-    <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
- legacyteams@outlook.com
-</button>
+  <span class="inline-block bg-gray-200  border-2 hover:border-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">legacyteams@outlook.com</span>
  </Linkify>
   </div>
 </div>
