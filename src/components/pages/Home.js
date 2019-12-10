@@ -11,16 +11,16 @@ import Linkify from 'linkifyjs/react';
 function Home() {
     return (
       <div>
-< div className =" flex jumbo-home content flex text-center sm:bg-local sm:bg-scroll sm:bg-fixed sm:bg-cover sm:bg-center md:bg-scroll lg:bg-local xl:bg-fixed bg-cover bg-center px-1 py-32" >
+< div className =" flex jumbo-home content flex text-center sm:bg-cover sm:bg-center bg-cover bg-center px-1 py-32">
        <div className="flex px-1 text-white text-4xl">
        LegacyTEAMS
        </div>
-      <div className="slider mt-3">
-      <div class="slider-text1 flex font-serif text-grey-200 text-center text-lg">Transforming</div>
-      <div class="slider-text2 flex font-serif text-grey-200 text-center text-lg">Encouraging</div>
-      <div class="slider-text3 flex font-serif text-grey-200 text-center text-lg">Assessing Mission Strength.</div>
+      <div className="slider px-1 py-1 mt-16">
+      <div class="slider-text1 font-serif text-grey-200 text-center text-lg">Assessing Mission Strength.</div>
+      <div class="slider-text2 font-serif text-grey-200 text-center text-lg">Encouraging</div>
+      <div class="slider-text3 font-serif text-grey-200 text-center text-lg">Transforming</div>
       </div>
-       </div>
+      </div>
 
 
         <Container 

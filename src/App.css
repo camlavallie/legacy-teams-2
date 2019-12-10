@@ -19,7 +19,7 @@ body,
       justify-content: center;
     }
     .slider {
-      height: 50px;
+      height: 100px;
       padding-left: 15px;
       overflow: hidden;
     }
@@ -27,7 +27,6 @@ body,
       color: White;
       height: 50px;
       margin-bottom: 50px;
-      text-align: center;
       box-sizing: border-box;
     }
 .slider-text1 {
