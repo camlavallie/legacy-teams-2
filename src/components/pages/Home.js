@@ -15,10 +15,10 @@ function Home() {
        <div className="flex px-1 text-white text-4xl">
        LegacyTEAMS
        </div>
-      <div className="slider px-1 py-1 mt-16">
-      <div class="slider-text1 font-serif text-grey-200 text-center text-lg">Assessing Mission Strength.</div>
-      <div class="slider-text2 font-serif text-grey-200 text-center text-lg">Encouraging</div>
-      <div class="slider-text3 font-serif text-grey-200 text-center text-lg">Transforming</div>
+      <div className="slider px-1 py-1 mt-20">
+      <div class="slider-text1 font-serif text-grey-200 text-center text-xs">Assessing Mission Strength.</div>
+      <div class="slider-text2 font-serif text-grey-200 text-center text-xs pr-24">Encouraging</div>
+      <div class="slider-text3 font-serif text-grey-200 text-center text-xs pr-24">Transforming</div>
       </div>
       </div>
 

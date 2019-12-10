@@ -48,7 +48,7 @@ class Resource extends Component {
 
   render() {
     return (
-     < div className = "jumbo-home-3 bg-cover bg-center bg-scroll bg-cover bg-center bg-fixed text-white py-32 mx-auto md:bg-fixed sm:bg-fixed lg:bg-fixed" >
+     < div className = "jumbo-home-3 text-center sm:bg-cover sm:bg-center md:bg-cover md:bg-center lg-cover lg-center bg-cover bg-center" >
         <h1
           className="large text-white"
           style={{

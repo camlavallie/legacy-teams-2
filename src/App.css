@@ -30,7 +30,7 @@ body,
       box-sizing: border-box;
     }
 .slider-text1 {
-  animation: slide 5s linear infinite;
+  animation: slide 6s linear infinite;
 }
 .slider-text2 {
 
