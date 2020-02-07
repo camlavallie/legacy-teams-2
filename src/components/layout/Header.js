@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
@@ -11,22 +12,22 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
     const authLinks = (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
-          <Nav.Link href="/home">Home</Nav.Link>
-          {/* <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link> */}
-          <Nav.Link href="/posts">Create Resource</Nav.Link>
-           <Nav.Link href="/resource">Resources</Nav.Link>
-          <Nav.Link onClick={logout} href="/home">Logout</Nav.Link>
+          <Link to="/home">Home</Link>
+          {/* <Nav.Link to="/about">About</Nav.Link>
+          <Nav.Link to="/contact">Contact</Nav.Link> */}
+          <Link to="/posts">Create Resource</Link>
+           <Link to="/resource">Resources</Link>
+          <Link onClick={logout} to="/home">Logout</Link>
         </Nav>
       </Navbar.Collapse>
     );
     const guestLinks = (
        <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
-          <Nav.Link href="/home">Home</Nav.Link>
-          {/* <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link> */}
-          <Nav.Link href="/resource">Resources</Nav.Link>
+          <Link to="/home">Home</Link>
+          {/* <Nav.Link to="/about">About</Nav.Link>
+          <Nav.Link to="/contact">Contact</Nav.Link> */}
+          <Link to="/resource">Resources</Link>
         </Nav>
       </Navbar.Collapse>
       
