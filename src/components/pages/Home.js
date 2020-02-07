@@ -398,15 +398,15 @@ function Home() {
             <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
               On The Water
             </div>
-            <Link
-              to="https://www.grandlake.com/"
+            <a
+              href="https://www.grandlake.com"
               target="_blank"
               rel="noopener noreferrer"
               class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"
             >
               Located on beautiful Grand Lake of the Cherokees in Grove,
               Oklahoma
-            </Link>
+            </a>
             <p class="mt-2 text-gray-600">
               LegacyTEAMS exists to help individuals and couples in military and
               civilian ministry fulfill God’s purposes for their lives by
