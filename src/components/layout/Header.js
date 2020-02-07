@@ -13,8 +13,6 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
           <Link to="/home">Home</Link>
-          {/* <Nav.Link to="/about">About</Nav.Link>
-          <Nav.Link to="/contact">Contact</Nav.Link> */}
           <Link to="/posts">Create Resource</Link>
            <Link to="/resource">Resources</Link>
           <Link onClick={logout} to="/home">Logout</Link>
@@ -25,8 +23,6 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
        <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
           <Link to="/home">Home</Link>
-          {/* <Nav.Link to="/about">About</Nav.Link>
-          <Nav.Link to="/contact">Contact</Nav.Link> */}
           <Link to="/resource">Resources</Link>
         </Nav>
       </Navbar.Collapse>
@@ -44,12 +40,12 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
           { !loading && (<Fragment>{ isAuthenticated ? authLinks : guestLinks}</Fragment>) }
         </Nav>
         <Form inline>
-          <a href="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
-          target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px", color:'grey'}}></i></a>
+          <Link to="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
+          target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px", color:'grey'}}></i></Link>
 
-          < a href= "https://www.instagram.com"
+          <Link to= "https://www.instagram.com"
           rel= "noopener noreferrer"
-          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px", color:'grey'}}></i></a>
+          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px", color:'grey'}}></i></Link>
     </Form>
        
   </Navbar.Collapse>
