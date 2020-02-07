@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Moment from 'react-moment';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
+import Linkify from 'linkifyjs/react';
+import {
+  Link
+} from 'react-router-dom';
 
 class Resource extends Component {
   state = {
@@ -47,7 +51,7 @@ class Resource extends Component {
 
   render() {
     return (
-      <div className="jumbo-home-3 text-center sm:bg-cover sm:bg-center sm:bg-fixed md:bg-cover md:bg-center lg-cover lg-center bg-cover bg-center bg-fixed">
+      <div className="jumbo-home-3 text-center sm:bg-cover sm:bg-center sm:bg-fixed md:bg-cover md:bg-center lg-cover lg-center ">
         <h1
           className="large text-white"
           style={{
@@ -68,7 +72,7 @@ class Resource extends Component {
         </InputGroup>
         <div>
           {this.state.filteredData.map(i => (
-            <div class=" bg-white m-10 p-6 max-w-sm max-w-md lg:max-w-full md:max-w-full lg:flex md:flex rounded ">
+            <div class=" bg-white m-10 p-6 max-w-sm max-w-md lg:max-w-full md:max-w-full lg:flex md:flex rounded "> 
               <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
                 <img
                   className="h-48 w-48 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 md:mr-6"
@@ -76,7 +80,7 @@ class Resource extends Component {
                   src={i.avatar}
                 />
               </div>
-              <div class=" p-4 flex flex-col justify-between leading-normal">
+              <div class="lg:text-left p-4 flex flex-col justify-between leading-normal">
                 <div class="mb-8">
                   <p class="text-sm text-gray-600 flex items-center">
                     <svg
@@ -89,9 +93,12 @@ class Resource extends Component {
                     {i.name}
                   </p>
                   <div class="text-gray-900 font-bold text-xl mb-2">
-                    <a className="text-blue-500" href={i.resource}>
+                   <Linkify>
+                    <a className="text-blue-500" target="_blank"
+              rel="noopener noreferrer" href={i.resource}>
                       {i.title}
                     </a>
+                    </Linkify>
                   </div>
                   <div className="text-gray-400">
                     {' '}
