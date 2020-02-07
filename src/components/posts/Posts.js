@@ -8,13 +8,11 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import PostForm from './PostForm';
 // import Search from './Search';
 
-
-class Search extends Component{
-  render(){
-  return(
-    <div></div>
-  )}
-};
+class Search extends Component {
+  render() {
+    return <div></div>;
+  }
+}
 
 const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
   useEffect(() => {
@@ -46,7 +44,7 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
 
         <hr />
         {posts.map(post => (
-          <PostItem key={post._id} post={post}/>
+          <PostItem key={post._id} post={post} />
         ))}
       </Jumbotron>
     </Fragment>

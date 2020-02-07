@@ -16,13 +16,13 @@ const TextInputGroup = ({
   
   return (
     <div className="form-group">
-            <label htmlFor={name}>{label}</label>
-            <input 
+            <label   htmlFor={name}>{label}</label>
+            <input
             type={type}
             firstname={firstname}
             lastname={lastname}
             name={name}
-            className={classnames('form-control form-control-lg', {
+            className={classnames('form-control form-control-lg appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none', {
               'is-invalid':error
             })}
             placeholder={placeholder}

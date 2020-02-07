@@ -19,19 +19,16 @@ class EditPost extends Component {
     this.setState({
       text,
       resource,
-      title,
-
+      title
     });
   }
 
-
   componentDidMount() {
-    
     const { id } = this.props.match.params;
     this.props.getPost(id);
   }
 
-  onSubmit = (e) => {
+  onSubmit = e => {
     e.preventDefault();
 
     const { text, resource, title } = this.state;
@@ -53,8 +50,6 @@ class EditPost extends Component {
       return;
     }
 
-
-
     const updatePost = {
       text,
       resource,
@@ -72,23 +67,29 @@ class EditPost extends Component {
       errors: {}
     });
 
-    this.props.history.push('/posts')
+    this.props.history.push('/posts');
   };
 
   onChange = e => this.setState({ [e.target.name]: e.target.value });
-
 
   render() {
     const { text, resource, title, errors } = this.state;
 
     return (
-
       <div className="post-form mb-3">
         <div className="card card-info">
-          <div className="card" style={{ background: '#4267B2', color: 'white', textAlign: 'center', fontSize: '1.5em' }}>Edit Post</div>
+          <div className="bg-blue-500 p-6 text-white  text-4xl text-center">
+            <p>
+              
+              Edit Post
+              </p> 
+          </div>
           <div className="card-body">
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <form onSubmit={this.onSubmit}>
+              <form
+                onSubmit={this.onSubmit}
+                class="bg-white w-full  shadow-md rounded px-8 pt-6 pb-8 mb-4"
+              >
                 <div className="form-group">
                   <TextInputGroup
                     placeholder="title"
@@ -97,6 +98,7 @@ class EditPost extends Component {
                     value={title}
                     onChange={this.onChange}
                     error={errors.title}
+                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                   />
                   <TextInputGroup
                     placeholder="resource"
@@ -113,14 +115,14 @@ class EditPost extends Component {
                     onChange={this.onChange}
                     error={errors.text}
                   />
-                  <input type="submit" value="Update Post" className="btn btn-light btn-block" style={{ background: '#4267B2', color:'white',  width:'100%',
-              border:'none',
-              borderBottom: '2px solid #97A4B9', }} />
-
+                  <input
+                    type="submit"
+                    value="Update Post"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  />
                 </div>
               </form>
             </div>
-
           </div>
         </div>
       </div>
@@ -138,4 +140,7 @@ const mapStateToProps = state => ({
   post: state.post.post
 });
 
-export default connect(mapStateToProps, { getPost, updatePost })(EditPost);
+export default connect(
+  mapStateToProps,
+  { getPost, updatePost }
+)(EditPost);

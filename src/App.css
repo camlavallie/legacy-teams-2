@@ -335,7 +335,7 @@ text-align: center;
 }
 
 /* Forms */
-
+/* 
 .form .form-group {
   margin: 1.2rem 0;
 }
@@ -362,11 +362,11 @@ text-align: center;
 .form input[type='submit'],
 button {
   font: inherit;
-}
+} */
 
 
 /* Posts Page */
-.post-form .post-form-header {
+/* .post-form .post-form-header {
   background: var(--primary-color);
   padding: 0.5rem;
 }
@@ -387,7 +387,7 @@ button {
 
 .post img {
   width: 100px;
-}
+} */
 
 
 /* this is the Header text in the top jumbotron*/
