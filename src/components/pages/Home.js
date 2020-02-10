@@ -9,6 +9,7 @@ import Linkify from 'linkifyjs/react';
 import {
   Link
 } from 'react-router-dom';
+import Contact from './Contact'
 
 function Home() {
   return (
@@ -132,13 +133,29 @@ function Home() {
                       team.
                     </p>
                   </div>
-                  <div class="font-bold text-xl mb-2">Contact Us</div>
+                   <div class="px-6 py-4">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                      #vision
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                      #destiny
+                    </span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                      #theway
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="img-container">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                  <img
+                    class="w-full"
+                    src={require('../img/contact-me.jpg')}
+                    alt="Sunset in the mountains"
+                  />
                   <div class="px-6 py-4">
-                    <Linkify>
-                      <span class="inline-block bg-gray-200  border-2 hover:border-blue-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-                        legacyteams@outlook.com
-                      </span>
-                    </Linkify>
+                    <div class="font-bold text-xl mb-2">Contact LegacyTEAMS</div>
+                    <Contact />
                   </div>
                 </div>
               </div>
