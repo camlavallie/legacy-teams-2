@@ -36,7 +36,7 @@ class Footer extends Component {
               }}
             ></i>
           </a>
-          <p class="text-center text-gray-500 text-xs">
+          <p className="text-center text-gray-500 text-xs">
             &copy;{new Date().getFullYear()} LegacyTEAMS. All rights reserved.
           </p>
         </div>

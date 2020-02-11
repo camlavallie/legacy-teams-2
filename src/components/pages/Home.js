@@ -6,9 +6,7 @@ import Card from 'react-bootstrap/Card';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Linkify from 'linkifyjs/react';
-import {
-  Link
-} from 'react-router-dom';
+// import { Link} from 'react-router-dom';
 import Contact from './Contact'
 
 function Home() {
@@ -17,13 +15,13 @@ function Home() {
       <div className=" flex jumbo-home content flex text-center sm:bg-cover sm:bg-center bg-cover bg-center px-1 py-32">
         <div className="flex px-1 text-white text-4xl">LegacyTEAMS</div>
         <div className="slider px-1 py-1 mt-20">
-          <div class="slider-text1 font-serif text-grey-200 text-center text-xs">
+          <div className="slider-text1 font-serif text-grey-200 text-center text-xs">
             Assessing Mission Strength.
           </div>
-          <div class="slider-text2 font-serif text-grey-200 text-center text-xs pr-24">
+          <div className="slider-text2 font-serif text-grey-200 text-center text-xs pr-24">
             Encouraging
           </div>
-          <div class="slider-text3 font-serif text-grey-200 text-center text-xs pr-24">
+          <div className="slider-text3 font-serif text-grey-200 text-center text-xs pr-24">
             Transforming
           </div>
         </div>
@@ -42,15 +40,15 @@ function Home() {
           <Tab eventKey="home" title="Services">
             <div className="bottom">
               <div className="img-container">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg">
                   <img
-                    class="w-full"
+                    className="w-full"
                     src={require('../img/bible.jpg')}
                     alt="Sunset in the mountains"
                   />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Pastoral Care</div>
-                    <p class="text-gray-700 text-base">
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">Pastoral Care</div>
+                    <p className="text-gray-700 text-base">
                       Long ago we realized that life in ministry can be a lonely
                       and exhausting journey. Having experienced the desire for
                       someone to walk along side of us, we are now in the
@@ -61,14 +59,14 @@ function Home() {
                       supportive mentoring relationship.
                     </p>
                   </div>
-                  <div class="px-6 py-4">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  <div className="px-6 py-4">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #pastor
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #ministry
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
                       #mentor
                     </span>
                   </div>
@@ -76,17 +74,17 @@ function Home() {
               </div>
 
               <div className="img-container">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg">
                   <img
-                    class="w-full"
+                    className="w-full"
                     src={require('../img/alpine.jpg')}
                     alt="Sunset in the mountains"
                   />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">
                       Strategic Processing
                     </div>
-                    <p class="text-gray-700 text-base">
+                    <p className="text-gray-700 text-base">
                       The purpose of our Engagements is to facilitate
                       transformational change that is holistic in nature.
                       Accomplished in three major steps:
@@ -99,29 +97,29 @@ function Home() {
                       on the needs of the participants.
                     </p>
                   </div>
-                  <div class="px-6 py-4">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                  <div className="px-6 py-4">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #strategy
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #process
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
                       #transformation
                     </span>
                   </div>
                 </div>
               </div>
               <div className="img-container">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg">
                   <img
-                    class="w-full"
+                    className="w-full"
                     src={require('../img/steps.jpg')}
                     alt="Sunset in the mountains"
                   />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Next Steps</div>
-                    <p class="text-gray-700 text-base">
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">Next Steps</div>
+                    <p className="text-gray-700 text-base">
                       Through teleconferencing and face to face meetings and
                       engagements, ministry participants will work with
                       LegacyTEAMS to identify areas that need growth, change and
@@ -133,54 +131,54 @@ function Home() {
                       team.
                     </p>
                   </div>
-                   <div class="px-6 py-4">
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                   <div className="px-6 py-4">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #vision
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #destiny
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
                       #theway
                     </span>
                   </div>
                 </div>
               </div>
               <div className="img-container">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg">
                   <img
-                    class="w-full"
+                    className="w-full"
                     src={require('../img/contact-me.jpg')}
                     alt="Sunset in the mountains"
                   />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Contact LegacyTEAMS</div>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">Contact LegacyTEAMS</div>
                     <Contact />
                   </div>
                 </div>
               </div>
               <div className="img-container">
-                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                <div className="max-w-sm rounded overflow-hidden shadow-lg">
                   <img
-                    class="w-full"
+                    className="w-full"
                     src={require('../img/seed.jpg')}
                     alt="Sunset in the mountains"
                   />
-                  <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Partner With Us!</div>
-                    <p class="text-gray-700 text-base">
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">Partner With Us!</div>
+                    <p className="text-gray-700 text-base">
                       Would you like to partner with LegacyTEAMS?
                     </p>
                   </div>
-                  <div class="px-6 py-4">
-                    <p class="text-gray-700 text-base">
+                  <div className="px-6 py-4">
+                    <p className="text-gray-700 text-base">
                       We greatly appreciate your partnership in prayer. If you'd
                       like to give a monetary donation or contribute financially
                       you can send all donations to:
                     </p>
                     <hr />
-                    <div class="select-all ...">
-                      <p class="text-gray-700 text-base">
+                    <div className="select-all ...">
+                      <p className="text-gray-700 text-base">
                         PO BOX 451298
                         <br />
                         Grove, OK 74345
@@ -188,13 +186,13 @@ function Home() {
                       </p>
                       <hr />
                     </div>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #support
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
                       #planting
                     </span>
-                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
                       #goodsoil
                     </span>
                   </div>
@@ -203,13 +201,13 @@ function Home() {
             </div>
           </Tab>
           <Tab eventKey="profile" title="The Team">
-            <div class="card shadow-md md:flex m-8">
+            <div className="card shadow-md md:flex m-8">
              
-              <div class="mt-4 md:mt-0 md:ml-6 text-center p-3">
-                <div class="uppercase tracking-wide text-sm text-brown-900 font-bold text-4xl mb-3">
+              <div className="mt-4 md:mt-0 md:ml-6 text-center p-3">
+                <div className="uppercase tracking-wide text-sm text-brown-900 font-bold text-4xl mb-3">
                   The Team
                 </div>
-                <p class="mt-2 pb-3 text-gray-600">
+                <p className="mt-2 pb-3 text-gray-600">
                   LegacyTEAMS has brought together a team of individuals from
                   military and civilian backgrounds who believe that God changes
                   lives today and when we partner with HIM, the future can look
@@ -400,28 +398,28 @@ function Home() {
         </Tabs>
       </Container>
       <Container className="card shadow-lg p-3" style={{ marginTop: 100 }}>
-        <div class="md:flex">
-          <div class="md:flex-shrink-0">
+        <div className="md:flex">
+          <div className="md:flex-shrink-0">
             <img
-              class="rounded-lg md:w-56"
+              className="rounded-lg md:w-56"
               src={require('../img/sunset.jpg')}
               alt="Woman paying for a purchase"
             />
           </div>
-          <div class="mt-4 md:mt-0 md:ml-6">
-            <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">
+          <div className="mt-4 md:mt-0 md:ml-6">
+            <div className="uppercase tracking-wide text-sm text-indigo-600 font-bold">
               On The Water
             </div>
             <a
               href="https://www.grandlake.com"
               target="_blank"
               rel="noopener noreferrer"
-              class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"
+              className="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"
             >
               Located on beautiful Grand Lake of the Cherokees in Grove,
               Oklahoma
             </a>
-            <p class="mt-2 text-gray-600 leading-relaxed ">
+            <p className="mt-2 text-gray-600 leading-relaxed ">
               LegacyTEAMS exists to help individuals and couples in military and
               civilian ministry fulfill God’s purposes for their lives by
               strategically developing legacies of great worth. Through

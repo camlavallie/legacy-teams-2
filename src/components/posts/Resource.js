@@ -72,7 +72,7 @@ class Resource extends Component {
         </InputGroup>
         <div>
           {this.state.filteredData.map(i => (
-            <div class=" bg-white m-10 p-6 max-w-sm max-w-md lg:max-w-full md:max-w-full lg:flex md:flex rounded "> 
+            <div className=" bg-white m-10 p-6 max-w-sm max-w-md lg:max-w-full md:max-w-full lg:flex md:flex rounded "> 
               <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
                 <img
                   className="h-48 w-48 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 md:mr-6"
@@ -80,11 +80,11 @@ class Resource extends Component {
                   src={i.avatar}
                 />
               </div>
-              <div class="lg:text-left p-4 flex flex-col justify-between leading-normal">
-                <div class="mb-8">
-                  <p class="text-sm text-gray-600 flex items-center">
+              <div className="lg:text-left p-4 flex flex-col justify-between leading-normal">
+                <div className="mb-8">
+                  <p className="text-sm text-gray-600 flex items-center">
                     <svg
-                      class="fill-current text-gray-500 w-3 h-3 mr-2"
+                      className="fill-current text-gray-500 w-3 h-3 mr-2"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -92,7 +92,7 @@ class Resource extends Component {
                     </svg>
                     {i.name}
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">
+                  <div className="text-gray-900 font-bold text-xl mb-2">
                    <Linkify>
                     <a className="text-blue-500" target="_blank"
               rel="noopener noreferrer" href={i.resource}>
@@ -104,7 +104,7 @@ class Resource extends Component {
                     {' '}
                     Posted on <Moment format="YYYY/MM/DD">{i.date}</Moment>
                   </div>
-                  <p class="text-gray-700 text-base"> {i.text}</p>
+                  <p className="text-gray-700 text-base"> {i.text}</p>
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@ import FAQ from './components/pages/FAQ';
 import Services from './components/pages/Services';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
+import Basic from './components/pages/Basic';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Login from './components/auth/Login';
@@ -42,6 +43,7 @@ const App = () => {
         <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} /> 
+          <Route exact path='/basic' component={Basic} /> 
           <Route exact path='/posts' component={Posts} />
           <Route exact path='/editpost/:id' component={EditPost} />
            <Route exact path='/services' component={Services} />
