@@ -335,27 +335,25 @@ function Home() {
                       className="display-4"
                       style={{ textAlign: 'center', margin: '20px' }}
                     >
-                      Frequently Asked Questions (FAQ)
+                      Frequently Asked Questions
                     </h1>
-                    <Card body className="faq-card">
-                      <h3 className="faq-head">
-                        WHAT'S THE BEST WAY TO CONTACT LegacyTEAMS?
+                    <Card body className="card rounded shadow-sm mb-3">
+                      <h3 className="bg-gray-700 text-white p-3 rounded leading-relaxed ">
+                        What's the best way to contact LegacyTEAMS?
                       </h3>
                       <hr />
-                      <p>
-                        Simply email us at chaplainegert@yahoo.com <br />
-                        We'll get back to you within 24 hours.
+                      <p className="text-gray-600 leading-relaxed ">
+                        Simply use the contact form in the Services tab. We generally reply within 24 hours.
                       </p>
                       <br />
                     </Card>
 
-                    <Card body className="faq-card">
-                      <h3 className="faq-head">
-                        I’M MARRIED. IS IT NECESSARY THAT MY SPOUSE ALSO
-                        PARTICIPATE IN MEETINGS WITH LegacyTEAMS?
+                    <Card body className="card shadow-sm mb-3">
+                      <h3 className="bg-gray-700 text-white p-3 rounded leading-relaxed ">
+                        I'm married. Is it necessary that my spouse also participate in meetings with LegacyTEAMS?
                       </h3>
                       <hr />
-                      <p>
+                      <p className="text-gray-600 leading-relaxed ">
                         No. You are welcome to contact us privately, and we can
                         work with you individually. In most cases, however, we
                         want to work with both spouses to achieve marital and
@@ -363,13 +361,12 @@ function Home() {
                       </p>
                       <br />
                     </Card>
-                    <Card body className="faq-card">
-                      <h3 className="faq-head">
-                        WHAT SHOULD I EXPECT FROM LegacyTEAMS IN TERMS OF
-                        ASSISTANCE?
+                    <Card body className="card shadow-sm mb-3">
+                      <h3 className="bg-gray-700 text-white p-3 rounded leading-relaxed ">
+                        What should I expect from LegacyTEAMS in terms of assistance?
                       </h3>
                       <hr />
-                      <p>
+                      <p className="text-gray-600 leading-relaxed ">
                         Much of your work with LegacyTEAMS can be conducted by
                         calls and teleconferencing. Pending the needs of an
                         individual or couple, we may recommend a marriage
@@ -380,12 +377,12 @@ function Home() {
                       <br />
                     </Card>
 
-                    <Card body className="faq-card">
-                      <h3 className="faq-head">
-                        HOW MUCH DOES IT COST TO WORK WITH LegacyTEAMS?
+                    <Card body className="card shadow-sm mb-3">
+                      <h3 className="bg-gray-700 text-white p-3 rounded leading-relaxed ">
+                        How much does it cost to work with LegacyTEAMS?
                       </h3>
                       <hr />
-                      <p>
+                      <p className="text-gray-600 leading-relaxed ">
                         Costs vary based on whether one or two individuals
                         (i.e., a couple) are receiving assistance and which
                         members of LegacyTEAMS are providing care. A schedule of
@@ -424,7 +421,7 @@ function Home() {
               Located on beautiful Grand Lake of the Cherokees in Grove,
               Oklahoma
             </a>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-gray-600 leading-relaxed ">
               LegacyTEAMS exists to help individuals and couples in military and
               civilian ministry fulfill God’s purposes for their lives by
               strategically developing legacies of great worth. Through

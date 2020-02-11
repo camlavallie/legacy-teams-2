@@ -6,13 +6,6 @@ import { getPosts } from '../../actions/post';
 import PostItem from './PostItem';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import PostForm from './PostForm';
-// import Search from './Search';
-
-class Search extends Component {
-  render() {
-    return <div></div>;
-  }
-}
 
 const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
   useEffect(() => {
@@ -23,10 +16,6 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
     <Spinner />
   ) : (
     <Fragment>
-      {/* <Jumbotron style={{textAlign:'center'}}>
-    
-</Jumbotron> */}
-
       <Jumbotron className="jumbo-home-3">
         <h1
           className="large text-white"
@@ -37,10 +26,7 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
         >
           Resources
         </h1>
-        {auth.user && !auth.loading && <PostForm /> }
-        <div className="container">
-          <Search />
-        </div>
+        {auth.user && !auth.loading && <PostForm />}
 
         <hr />
         {posts.map(post => (

@@ -30,47 +30,37 @@ const Login = ({ login, isAuthenticated }) => {
   return (
     <Fragment>
       <Container>
-        <div className="login">
+        <div className="login w-full">
       <h1>Sign In</h1><br/>
-        <form className="form-group" onSubmit={e => onSubmit(e)}>
+      <div class="flex justify-center flex-wrap">
+        <form class="bg-white lg:w-1/2 shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={e => onSubmit(e)}>
          
-          <div className="form-group">
+          <div class="mb-4">
             <input type="email" 
             placeholder="Email Address" 
             name="email"
             value={email}
             onChange={e => onChange(e)}
             required
-            style={{
-              width:'50%',
-              border:'none',
-              borderBottom: '2px solid #97A4B9',
-              boxShadow: '0 1px 0 0 #97A4B9',
-            }}
+            class = "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
-          </div>
-          <div className="form-group">
+        </div>
+         
+         <div class="mb-4">
             <input type="password" 
             placeholder="Password" 
             name="password" 
             minLength="6"
             value={password}
             onChange={e => onChange(e)}
-            style={{
-              width:'50%',
-              border:'none',
-              borderBottom: '2px solid #97A4B9',
-              boxShadow: '0 1px 0 0 #97A4B9',
-            }}
+            class = "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
-          </div><br/>
+        </div>
          
-          <input type="submit" className="btn btn-primary" value="Login"
-          style={{
-              width:'50%'
-            }}
+          <input type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" value="Login"
           />
         </form>
+        </div>
         </div>
         </Container>
     </Fragment>
