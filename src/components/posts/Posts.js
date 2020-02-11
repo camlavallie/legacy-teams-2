@@ -37,7 +37,7 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
         >
           Resources
         </h1>
-        {auth.user && !auth.loading && <PostForm />}
+        {auth.user && !auth.loading && <PostForm /> }
         <div className="container">
           <Search />
         </div>

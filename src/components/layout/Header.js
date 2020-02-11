@@ -24,6 +24,7 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
         <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
           <Link to="/home">Home</Link>
           <Link to="/resource">Resources</Link>
+          <Link to="/login">Login</Link>
         </Nav>
       </Navbar.Collapse>
       
@@ -40,12 +41,12 @@ const Header = ({ auth: { isAuthenticated, loading}, logout }) => {
           { !loading && (<Fragment>{ isAuthenticated ? authLinks : guestLinks}</Fragment>) }
         </Nav>
         <Form inline>
-          <Link to="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
+          {/* <Link to="https://www.facebook.com/legacyteams.inc/" rel="noopener noreferrer"
           target="_blank"><i className="fa fa-facebook-square" style={{fontSize:"35px", color:'grey'}}></i></Link>
 
           <Link to= "https://www.instagram.com"
           rel= "noopener noreferrer"
-          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px", color:'grey'}}></i></Link>
+          target="_blank"><i className="fa fa-instagram" style={{fontSize:"35px", color:'grey'}}></i></Link> */}
     </Form>
        
   </Navbar.Collapse>
