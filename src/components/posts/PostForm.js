@@ -21,7 +21,7 @@ const PostForm = ({ addPost }) => {
         }}
       >
         <input
-          class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none m-3"
+          className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none m-3"
           placeholder=" Title"
           cols="30"
           rows="5"
@@ -36,7 +36,7 @@ const PostForm = ({ addPost }) => {
           value={resource}
           onChange={e => setResource(e.target.value)}
           required
-          class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none m-3"
+          className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none m-3"
         />
         <textarea
           name="text"
@@ -46,13 +46,13 @@ const PostForm = ({ addPost }) => {
           value={text}
           onChange={e => setText(e.target.value)}
           required
-          class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none m-3"
+          className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none m-3"
         ></textarea>
         <br />
         <input
           type="submit"
           value="Submit"
-          class="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded m-3"
+          className="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded m-3"
         />
       </form>
     </div>

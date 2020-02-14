@@ -8,20 +8,21 @@ import PropTypes from 'prop-types';
 import { logout } from '../../actions/auth';
 
 
-const Header = ({ auth: { isAuthenticated, loading}, logout }) => { 
+const Header = ({ auth: { isAuthenticated, loading, user}, logout }) => { 
     const authLinks = (
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
+        <Nav className="mr-auto text-sm">
           <Link to="/home">Home</Link>
           <Link to="/posts">Create Resource</Link>
            <Link to="/resource">Resources</Link>
           <Link onClick={logout} to="/home">Logout</Link>
+           <Link to="/posts" className="text-gray-500 disabled"><ion-icon name="person-outline"></ion-icon> Welcome {user && user.name}</Link>
         </Nav>
       </Navbar.Collapse>
     );
     const guestLinks = (
        <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto" style={{ fontSize:'20px', color:'white, imortant!'}}>
+        <Nav className="mr-auto text-xl">
           <Link to="/home">Home</Link>
           <Link to="/resource">Resources</Link>
           <Link to="/login">Login</Link>

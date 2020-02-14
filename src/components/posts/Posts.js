@@ -7,7 +7,7 @@ import PostItem from './PostItem';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import PostForm from './PostForm';
 
-const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
+const Posts = ({ getPosts, auth, auth: {user}, post: { posts, loading } }) => {
   useEffect(() => {
     getPosts();
   }, [getPosts]);
@@ -26,7 +26,12 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
         >
           Resources
         </h1>
+        <div className="justify-center">
+        <h1 className="text-xl text-white bg-blue-500 rounded p-3">
+         <ion-icon name="person-outline"></ion-icon> Welcome {user && user.name}
+        </h1>
         {auth.user && !auth.loading && <PostForm />}
+        </div>
 
         <hr />
         {posts.map(post => (
@@ -39,12 +44,14 @@ const Posts = ({ getPosts, auth, post: { posts, loading } }) => {
 
 Posts.propTypes = {
   getPosts: PropTypes.func.isRequired,
-  post: PropTypes.object.isRequired
+  post: PropTypes.object.isRequired,
+  auth: PropTypes.object.isRequired
 };
 
 const mapStateToProps = state => ({
   post: state.post,
-  auth: state.auth
+  auth: state.auth,
+  
 });
 
 export default connect(
