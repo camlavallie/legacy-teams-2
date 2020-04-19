@@ -48,7 +48,7 @@ class Resource extends Component {
 
   render() {
     return (
-      <div className="jumbo-resource flex justify-center">
+      <div className="jumbo-resource flexjustify-center">
         <div className=" text-center sm:bg-cover sm:bg-center sm:bg-fixed md:bg-cover md:bg-center lg-cover lg-center ">
           <h1
             id="top"
@@ -71,7 +71,7 @@ class Resource extends Component {
           </InputGroup>
           <div className="flex flex-wrap justify-center mt-12">
             {this.state.filteredData.map(i => (
-              <div className="max-w-md mt-12 mr-3 py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+              <div className="max-w-md mt-12 m-12 py-4 px-8 bg-white shadow-lg rounded-lg my-20">
                 <div class="flex justify-center md:justify-end -mt-16 mt-12">
                   <img
                     class="w-20 h-20 object-cover rounded-full border-2 border-white"
