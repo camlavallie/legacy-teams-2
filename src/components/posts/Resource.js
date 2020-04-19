@@ -3,9 +3,7 @@ import Moment from 'react-moment';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Linkify from 'linkifyjs/react';
-import {
-  Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Resource extends Component {
   state = {
@@ -51,64 +49,73 @@ class Resource extends Component {
 
   render() {
     return (
-      <div className="jumbo-home-3 text-center sm:bg-cover sm:bg-center sm:bg-fixed md:bg-cover md:bg-center lg-cover lg-center ">
-        <h1
-          className="large text-white"
-          style={{
-            textAlign: 'center',
-            marginBottom: '150px'
-          }}
-        >
-          Resources
-        </h1>
-        <InputGroup size="lg">
-          <FormControl
-            aria-label="Large"
-            aria-describedby="inputGroup-sizing-sm"
-            placeholder="Search Resource By Title..."
-            value={this.state.query}
-            onChange={this.handleInputChange}
-          />
-        </InputGroup>
-        <div>
-          {this.state.filteredData.map(i => (
-            <div className=" bg-white m-10 p-6 max-w-sm max-w-md lg:max-w-full md:max-w-full lg:flex md:flex rounded "> 
-              <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
-                <img
-                  className="h-48 w-48 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 md:mr-6"
-                  alt="pic"
-                  src={i.avatar}
-                />
-              </div>
-              <div className="lg:text-left p-4 flex flex-col justify-between leading-normal">
-                <div className="mb-8">
-                  <p className="text-sm text-gray-600 flex items-center">
-                    <svg
-                      className="fill-current text-gray-500 w-3 h-3 mr-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-                    </svg>
-                    {i.name}
-                  </p>
-                  <div className="text-gray-900 font-bold text-xl mb-2">
-                   <Linkify>
-                    <a className="text-blue-500" target="_blank"
-              rel="noopener noreferrer" href={i.resource}>
-                      {i.title}
-                    </a>
+      <div className="jumbo-home-3 flex justify-center">
+        <div className=" text-center sm:bg-cover sm:bg-center sm:bg-fixed md:bg-cover md:bg-center lg-cover lg-center ">
+          <h1
+            id="top"
+            className="large text-white"
+            style={{
+              textAlign: 'center',
+              marginBottom: '150px'
+            }}
+          >
+            Resources
+          </h1>
+          <InputGroup size="m-3">
+            <FormControl
+              aria-label="Large"
+              aria-describedby="inputGroup-sizing-sm"
+              placeholder="Search Resource By Title..."
+              value={this.state.query}
+              onChange={this.handleInputChange}
+            />
+          </InputGroup>
+          <div className="flex flex-wrap justify-center mt-12">
+            {this.state.filteredData.map(i => (
+              <div className="max-w-md mt-12 mr-3 py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+                <div class="flex justify-center md:justify-end -mt-16 mt-12">
+                  <img
+                    class="w-20 h-20 object-cover rounded-full border-2 border-white"
+                    src={i.avatar}
+                  />
+                </div>
+                <div>
+                  <p class="text-gray-800 text-xl font-thin">
+                    <Linkify>
+                      <a
+                        className="text-blue-500"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={i.resource}
+                      >
+                        {i.title}
+                      </a>
                     </Linkify>
-                  </div>
-                  <div className="text-gray-400">
-                    {' '}
+                  </p>
+                  <p class="mt-2 text-gray-600">{i.text}</p>
+                </div>
+                <div class="flex justify-end mt-4">
+                  <p class="text-xl font-medium text-gray-500">{i.name}</p>
+                </div>
+                <div class="flex justify-end mt-4">
+                  <p class="text-sm font-medium text-gray-500">
                     Posted on <Moment format="YYYY/MM/DD">{i.date}</Moment>
-                  </div>
-                  <p className="text-gray-700 text-base"> {i.text}</p>
+                  </p>
                 </div>
               </div>
+            ))}
+          </div>
+            <div className="flex flex-wrap justify-center mt-4">
+              <a
+                href="#top"
+                className="rounded-lg bg-blue-500 p-3 text-white text-xl font-thin no-underline"
+                style={{
+                  textDecorationLine: 'none'
+                }}
+              >
+                To the top
+              </a>
             </div>
-          ))}
         </div>
       </div>
     );
