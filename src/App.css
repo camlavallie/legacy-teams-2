@@ -32,12 +32,7 @@ body,
 .slider-text1 {
   animation: slide 6s linear infinite;
 }
-.slider-text2 {
 
-}
-.slider-text3 {
-
-}
 @keyframes slide {
   0% {margin-top:-300px;}
   5% {margin-top:-200px;}
@@ -82,7 +77,7 @@ body,
 
 
 
-.jumbo-home-3 {
+.jumbo-resource {
   background-image: url('../src/components/img/opendoor.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -425,7 +420,7 @@ button {
 .jumbo-home {
   background-image: url('../src/components/img/compass1.jpg');
 }
-.jumbo-home-3 {
+.jumbo-resource {
   background-image: url('../src/components/img/opendoor.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -779,18 +774,10 @@ button {
 
 
 
-.jumbo-home-3 {
+.jumbo-resource {
   background-image: url('../src/components/img/opendoor.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   background-attachment: fixed;
-    max-width:100%;
-    height: auto;
-  opacity: .9;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  text-shadow: #636e79;
 }
 
 .jumbo-home-2 {

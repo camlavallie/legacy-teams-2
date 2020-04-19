@@ -3,7 +3,6 @@ import Moment from 'react-moment';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import Linkify from 'linkifyjs/react';
-import { Link } from 'react-router-dom';
 
 class Resource extends Component {
   state = {
@@ -49,7 +48,7 @@ class Resource extends Component {
 
   render() {
     return (
-      <div className="jumbo-home-3 flex justify-center">
+      <div className="jumbo-resource flex justify-center">
         <div className=" text-center sm:bg-cover sm:bg-center sm:bg-fixed md:bg-cover md:bg-center lg-cover lg-center ">
           <h1
             id="top"
